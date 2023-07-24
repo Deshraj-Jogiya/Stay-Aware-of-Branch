@@ -1,0 +1,23 @@
+# Built artifacts
+build/
+**/build/
+*.class
+
+# Gradle files
+.gradle/
+build.gradle.local
+local.properties
+.gradle
+gradle-app.setting
+.navigation/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db

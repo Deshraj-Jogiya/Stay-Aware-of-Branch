@@ -1,0 +1,2 @@
+include ':app', ':calenderView', ':dialogPlusLib', ':floatInputLib', ':FilePicker', ':expandablerecyclerview', ':countTextView', ':chatkit', ':solbrickscal', ':SlidingMenu', ':sweetAlertDialog', ':FlycoTabLayoutLib', ':MaterialTabs'
+include ':ImageViewer'
