@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+        <FrameLayout
+            android:id="@+id/full_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/control_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.marvinlabs.widget.floatinglabel.itempicker.FloatingLabelItemPicker
+                    android:id="@+id/control_class"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/log_inputs_marg_edges"
+                    android:layout_marginLeft="@dimen/log_inputs_marg_edges"
+                    android:layout_marginRight="@dimen/log_inputs_marg_edges"
+                    app:flw_labelText="Class"
+                    app:flw_labelTextColor="@color/x_hint_text_color"
+                    app:flw_inputWidgetTextColor="@color/white"
+                    android:layout_marginEnd="@dimen/log_inputs_marg_edges"
+                    android:layout_marginStart="@dimen/log_inputs_marg_edges" />
+
+                <com.marvinlabs.widget.floatinglabel.itempicker.FloatingLabelItemPicker
+                    android:id="@+id/control_section"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/log_inputs_marg_edges"
+                    android:layout_marginLeft="@dimen/log_inputs_marg_edges"
+                    android:layout_marginRight="@dimen/log_inputs_marg_edges"
+                    app:flw_labelText="Section"
+                    app:flw_labelTextColor="@color/x_hint_text_color"
+                    app:flw_inputWidgetTextColor="@color/white"
+                    android:layout_marginEnd="@dimen/log_inputs_marg_edges"
+                    android:layout_marginStart="@dimen/log_inputs_marg_edges" />
+
+                <com.marvinlabs.widget.floatinglabel.itempicker.FloatingLabelItemPicker
+                    android:id="@+id/control_subject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/log_inputs_marg_edges"
+                    android:layout_marginLeft="@dimen/log_inputs_marg_edges"
+                    android:layout_marginRight="@dimen/log_inputs_marg_edges"
+                    app:flw_labelText="Subject"
+                    app:flw_labelTextColor="@color/x_hint_text_color"
+                    app:flw_inputWidgetTextColor="@color/white"
+                    android:layout_marginStart="@dimen/log_inputs_marg_edges"
+                    android:layout_marginEnd="@dimen/log_inputs_marg_edges" />
+
+                <com.dd.processbutton.iml.ActionProcessButton xmlns:custom="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/process_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_margin="@dimen/log_inputs_marg_edges"
+                    android:text="@string/save"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    custom:pb_colorComplete="@color/green_complete"
+                    custom:pb_colorNormal="@color/blue_normal"
+                    custom:pb_colorPressed="@color/blue_pressed"
+                    custom:pb_colorProgress="@color/purple_progress"
+                    custom:pb_textComplete="@string/log_btn_success"
+                    custom:pb_textProgress="@string/log_btn_loading" />
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+</RelativeLayout>

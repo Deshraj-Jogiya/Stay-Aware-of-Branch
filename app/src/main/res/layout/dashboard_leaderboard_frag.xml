@@ -1,0 +1,503 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CusTint="http://schemas.android.com/apk/res-auto"
+    xmlns:LanguageManager="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="12dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp">
+
+            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                android:id="@+id/students_leaderboard_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/students_see_more_con"
+                android:layout_toStartOf="@id/students_see_more_con"
+                android:gravity="start"
+                android:text="Students Leaderboard"
+                android:textAlignment="viewStart"
+                android:textColor="@color/x_dash_header_text"
+                android:textSize="19sp"
+                LanguageManager:lang_source_id="studentLeaderboard" />
+
+            <LinearLayout
+                android:id="@id/students_see_more_con"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/dash_side_button_1"
+                android:orientation="horizontal"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:visibility="gone">
+
+                <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                    android:id="@+id/students_see_more_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="See more"
+                    android:textColor="@color/x_dash_side_button_text"
+                    android:textSize="@dimen/x_boxes_menu_text"
+                    LanguageManager:lang_source_id="all" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:id="@+id/no_sleader_con"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                    android:id="@+id/empty_sleader_img"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/no_student_leader"
+                    CusTint:tintVal="@color/x_dash_main_text" />
+
+                <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/empty_sleader_img"
+                    android:layout_centerHorizontal="true"
+                    android:padding="12dp"
+                    android:text="No students in leaderboard yet"
+                    android:textColor="@color/x_dash_main_text"
+                    android:textSize="19sp"
+                    LanguageManager:lang_source_id="noStudents" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/sleader_con"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/student_lead_1_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:visibility="gone">
+
+                    <com.solutionsbricks.solbricksframework.helpers.CustomImageView
+                        android:id="@+id/student_lead_1_img"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/student_lead_1_img"
+                        android:layout_toRightOf="@+id/student_lead_1_img"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/student_lead_1_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_main_text"
+                            android:textSize="19sp" />
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/student_lead_1_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_sub_text"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/student_lead_2_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:visibility="gone">
+
+                    <com.solutionsbricks.solbricksframework.helpers.CustomImageView
+                        android:id="@+id/student_lead_2_img"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/student_lead_2_img"
+                        android:layout_toRightOf="@+id/student_lead_2_img"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/student_lead_2_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_main_text"
+                            android:textSize="19sp" />
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/student_lead_2_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_sub_text"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/student_lead_3_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <com.solutionsbricks.solbricksframework.helpers.CustomImageView
+                        android:id="@+id/student_lead_3_img"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/student_lead_3_img"
+                        android:layout_toRightOf="@+id/student_lead_3_img"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/student_lead_3_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_main_text"
+                            android:textSize="19sp" />
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/student_lead_3_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_sub_text"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/x_divider_color" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp">
+
+            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                android:id="@+id/employees_leaderboard_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/employees_see_more_con"
+                android:layout_toStartOf="@id/employees_see_more_con"
+                android:gravity="start"
+                android:text="Teachers Leaderboard"
+                android:textAlignment="viewStart"
+                android:textColor="@color/x_dash_header_text"
+                android:textSize="19sp"
+                LanguageManager:lang_source_id="teacherLeaderboard" />
+
+            <LinearLayout
+                android:id="@id/employees_see_more_con"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/dash_side_button_1"
+                android:orientation="horizontal"
+                android:paddingBottom="4dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:visibility="gone">
+
+                <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                    android:id="@+id/employees_see_more_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="See more"
+                    android:textColor="@color/x_dash_side_button_text"
+                    android:textSize="16sp"
+                    LanguageManager:lang_source_id="all" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:id="@+id/no_tleader_con"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                    android:id="@+id/empty_tleader_img"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/no_teacher_leader"
+                    CusTint:tintVal="@color/x_dash_main_text" />
+
+                <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/empty_tleader_img"
+                    android:layout_centerHorizontal="true"
+                    android:padding="12dp"
+                    android:text="No teachers in leaderboard yet"
+                    android:textColor="@color/x_dash_main_text"
+                    android:textSize="19sp"
+                    LanguageManager:lang_source_id="noTeachers" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/tleader_con"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:id="@+id/employees_lead_1_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:visibility="gone">
+
+                    <com.solutionsbricks.solbricksframework.helpers.CustomImageView
+                        android:id="@+id/employees_lead_1_img"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/employees_lead_1_img"
+                        android:layout_toRightOf="@+id/employees_lead_1_img"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/employees_lead_1_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_main_text"
+                            android:textSize="19sp" />
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/employees_lead_1_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_sub_text"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/employees_lead_2_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:visibility="gone">
+
+                    <com.solutionsbricks.solbricksframework.helpers.CustomImageView
+                        android:id="@+id/employees_lead_2_img"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/employees_lead_2_img"
+                        android:layout_toRightOf="@+id/employees_lead_2_img"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/employees_lead_2_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_main_text"
+                            android:textSize="19sp" />
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/employees_lead_2_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_sub_text"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/employees_lead_3_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <com.solutionsbricks.solbricksframework.helpers.CustomImageView
+                        android:id="@+id/employees_lead_3_img"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@+id/employees_lead_3_img"
+                        android:layout_toRightOf="@+id/employees_lead_3_img"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/employees_lead_3_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_main_text"
+                            android:textSize="19sp" />
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/employees_lead_3_msg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_sub_text"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+

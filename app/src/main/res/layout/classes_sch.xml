@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/background_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/x_gen_back" />
+
+    <include layout="@layout/header_loader" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/full_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:orientation="horizontal">
+
+
+        <com.ogaclejapan.smarttablayout.SmartTabLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/tab"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:clipToPadding="false"
+            app:stl_defaultTabTextColor="@color/x_boxes_container_back"
+            app:stl_defaultTabTextHorizontalPadding="20dp"
+            app:stl_dividerColor="@android:color/transparent"
+            app:stl_dividerThickness="0dp"
+            app:stl_indicatorColor="@color/transparent_black"
+            app:stl_indicatorCornerRadius="20dp"
+            app:stl_indicatorInterpolation="smart"
+            app:stl_indicatorThickness="40dp"
+            app:stl_underlineColor="@android:color/transparent"
+            app:stl_underlineThickness="0dp" />
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tab" />
+
+    </RelativeLayout>
+</RelativeLayout>
+

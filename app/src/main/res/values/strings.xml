@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_single_choice_dialog">Demo Login</string>
+
+    <string name="log_btn_sign_in">Sign in</string>
+    <string name="log_btn_success">Success</string>
+    <string name="log_btn_loading">Loading..</string>
+
+    <string name="copied_message">Message copied!</string>
+    <string name="on_log_click_message">Your custom long click handler</string>
+
+    <string name="schoolTerms">School Terms</string>
+    <string name="Logout">Logout</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="static_pages">Static pages</string>
+    <string name="calender">Calender</string>
+    <string name="messages">Messages</string>
+    <string name="classes_schedule">Classes Schedule</string>
+    <string name="attendance">Attendance</string>
+    <string name="staff_attendance">Staff Attendance</string>
+    <string name="mark_sheet">Marksheet</string>
+    <string name="attendance_statistics">Attendance Statistics</string>
+    <string name="library">Library</string>
+    <string name="media_center">Media Center</string>
+    <string name="teachers">Teachers</string>
+    <string name="students">Students</string>
+    <string name="parents">Parents</string>
+    <string name="gradeLevels">Grade Levels</string>
+    <string name="assignments">Assignments</string>
+    <string name="homework">Homework</string>
+    <string name="exams_list">Exams List</string>
+    <string name="online_exams">Online Exams</string>
+    <string name="news_board">News Board</string>
+    <string name="events">Events</string>
+    <string name="payments">Invoices</string>
+    <string name="due_payments">Due Invoices</string>
+    <string name="transportation">Transportation</string>
+    <string name="classes">Classes</string>
+    <string name="sections">Sections</string>
+    <string name="transport">Transportation</string>
+    <string name="hostel">Hostel</string>
+    <string name="subjects">Subjects</string>
+    <string name="promotion">Promotion</string>
+    <string name="polls">Polls</string>
+    <string name="dormitories">Dormitories</string>
+    <string name="general_settings">General Settings</string>
+    <string name="languages">Languages</string>
+    <string name="administrators">Administrators</string>
+    <string name="school_terms">School Terms</string>
+    <string name="study_materials">Study Materials</string>
+
+    <string name="hint_enter_a_message">Type a message…</string>
+
+    <string name="more_news">News List</string>
+    <string name="more_events">Events List</string>
+
+
+    <string name="static_pages_status">Page Status</string>
+    <string name="confirm">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <string name="delete_item_msg_title">Delete This Item</string>
+    <string name="delete_item_msg_content">Are You Sure ?</string>
+    <string name="delete_confirm">Delete</string>
+    <string name="delete_cancel">Cancel</string>
+    <string name="delete_success">Item Deleted Successfully</string>
+    <string name="delete_failed">Sorry, Error Occurred</string>
+
+
+    <string-array name="static_pages_status_vals">
+        <item>Active</item>
+        <item>Inactive</item>
+    </string-array>
+    <string-array name="gender_vals">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <array name="days">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thurusday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </array>
+
+
+    <array name="file_choices">
+        <item>Choose File</item>
+    </array>
+
+    <string name="default_notification_channel_id" translatable="false">com.schoolmgmtsys.root.ssg</string>
+
+    <string name="app_name">Roots Abacus App</string>
+    <string name="x_login_school_name">Roots Abacus</string>
+</resources>

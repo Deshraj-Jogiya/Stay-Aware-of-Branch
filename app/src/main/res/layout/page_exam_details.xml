@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CusTint="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/background_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/x_gen_back" />
+
+
+    <include layout="@layout/header_loader" />
+
+    <FrameLayout
+        android:id="@+id/full_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/error_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:visibility="invisible">
+
+                    <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:padding="@dimen/main_marg2"
+                        android:src="@drawable/failed"
+                        CusTint:tintVal="@color/x_gen_icons" />
+
+                    <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:text="Loading Error"
+                        android:textAlignment="center"
+                        android:textColor="@color/x_gen_main_text"
+                        android:textSize="19sp" />
+
+                    <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="Tap to try again"
+                        android:textAlignment="center"
+                        android:textColor="@color/x_gen_sub_title_text"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/loading_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone">
+
+                    <com.wang.avi.AVLoadingIndicatorView
+                        android:id="@+id/dialog_loader"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerInParent="true"
+                        android:padding="15dp"
+                        app:indicatorColor="@color/x_gen_icons"
+                        app:indicatorName="LineScalePulseOutRapidIndicator" />
+
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/data_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginStart="15dp"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/examTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_main_text"
+                            android:textSize="19sp" />
+
+                        <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                            android:id="@+id/examDescription"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_main_text"
+                            android:textSize="15sp" />
+
+                        <!-- Classes -->
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="@dimen/x_boxes_icon_size"
+                                android:layout_height="@dimen/x_boxes_icon_size"
+                                android:layout_marginEnd="15dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="4dp">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/icon_pages_class" />
+
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <com.schoolmgmtsys.root.ssg.fonts.BoldStyledTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:text="Classes"
+                                    android:textAlignment="viewStart"
+                                    android:textColor="@color/x_dash_main_text"
+                                    android:textSize="15sp" />
+
+                                <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                                    android:id="@+id/examClassesNames"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:text="NA"
+                                    android:textAlignment="viewStart"
+                                    android:textColor="@color/x_dash_main_text"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <!-- Date -->
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="@dimen/x_boxes_icon_size"
+                                android:layout_height="@dimen/x_boxes_icon_size"
+                                android:layout_marginEnd="15dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="4dp">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/icon_pages_start_time" />
+
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <com.schoolmgmtsys.root.ssg.fonts.BoldStyledTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:text="Date"
+                                    android:textAlignment="viewStart"
+                                    android:textColor="@color/x_dash_main_text"
+                                    android:textSize="15sp" />
+
+                                <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                                    android:id="@+id/examDate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:text="NA"
+                                    android:textAlignment="viewStart"
+                                    android:textColor="@color/x_dash_main_text"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <!-- End Date -->
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="@dimen/x_boxes_icon_size"
+                                android:layout_height="@dimen/x_boxes_icon_size"
+                                android:layout_marginEnd="15dp"
+                                android:layout_marginRight="15dp"
+                                android:layout_marginTop="4dp">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerInParent="true"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/icon_pages_end_time" />
+
+                            </RelativeLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="vertical">
+
+                                <com.schoolmgmtsys.root.ssg.fonts.BoldStyledTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:text="End Date"
+                                    android:textAlignment="viewStart"
+                                    android:textColor="@color/x_dash_main_text"
+                                    android:textSize="15sp" />
+
+                                <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                                    android:id="@+id/examEndDate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="start"
+                                    android:text="NA"
+                                    android:textAlignment="viewStart"
+                                    android:textColor="@color/x_dash_main_text"
+                                    android:textSize="15sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/examScheduleCon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/x_divider_color" />
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:gravity="start"
+                            android:text="Exam Schedule"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_main_text"
+                            android:textSize="16sp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@color/x_divider_color" />
+
+                        <LinearLayout
+                            android:id="@+id/examSchedule"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginStart="15dp"
+                            android:orientation="vertical" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+        </ScrollView>
+
+    </FrameLayout>
+
+</RelativeLayout>
+

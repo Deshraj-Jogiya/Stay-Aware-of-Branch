@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/saving_footer"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/background_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/x_gen_back"
+            android:scaleType="centerCrop"
+            />
+
+        <include layout="@layout/header_loader" />
+
+        <ListView
+            android:id="@+id/exam_mark_view_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/toolbar"
+            android:clipToPadding="false"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="false"
+            android:footerDividersEnabled="true"
+            android:headerDividersEnabled="true"
+            android:smoothScrollbar="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@id/saving_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_process_btn"
+        android:orientation="vertical">
+
+        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+            android:id="@+id/save_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:text="Add/Update Marks"
+            android:textColor="@color/x_bottom_process_button_text"
+            android:textSize="19sp" />
+
+
+    </LinearLayout>
+</RelativeLayout>
