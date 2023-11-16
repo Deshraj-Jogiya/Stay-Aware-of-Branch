@@ -1,11 +1,11 @@
 # Stay Aware of Branch
 
-> Team project. This repository holds the team's code; the section below describes my part.
+> Team project. This repository holds the team's code; the section below lists the individual contribution.
 
 An Android app that keeps parents in touch with their child's school: progress reports, attendance and instant notifications, built by a
 team (Jul – Dec 2023).
 
-## My part
+## Individual contribution
 
 - Progress-report feeds and attendance-tracking screens.
 - Native Android push notifications for urgent school announcements.
