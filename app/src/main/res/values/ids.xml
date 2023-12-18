@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="poll_vote_items_container" type="id"/>
+    <item name="poll_results_items_container" type="id"/>
+
+</resources>

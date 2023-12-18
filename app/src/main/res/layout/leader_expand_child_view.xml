@@ -1,0 +1,55 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <View
+        android:id="@+id/div5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#33000000" />
+
+    <RelativeLayout
+        android:id="@+id/txt6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:background="@color/x_boxes_container_back">
+
+        <com.solutionsbricks.solbricksframework.helpers.CustomImageView
+            android:id="@+id/dash_lead_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/img_marg" />
+
+        <LinearLayout
+            android:id="@+id/dash_lead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/dash_lead_img"
+            android:layout_toEndOf="@+id/dash_lead_img">
+
+            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                android:textAlignment="viewStart"
+                android:id="@+id/dash_lead_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/x_boxes_main_text"
+                android:layout_gravity="start" />
+
+            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                android:textAlignment="viewStart"
+                android:id="@+id/dash_lead_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:textColor="@color/x_boxes_sub_title_text" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

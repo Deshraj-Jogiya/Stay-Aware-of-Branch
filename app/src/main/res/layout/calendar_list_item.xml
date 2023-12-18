@@ -1,0 +1,337 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CusTint="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="10dp"
+        CusTint:cardBackgroundColor="@android:color/transparent"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="3dp"
+        card_view:cardPreventCornerOverlap="false"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/x_calendar_header_back">
+
+                <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/x_calendar_header_text"
+                    android:textSize="17sp" />
+
+            </LinearLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/parent_events_con"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/x_calendar_no_events_back">
+
+                <RelativeLayout
+                    android:id="@+id/no_events_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="12dp"
+                    android:paddingTop="12dp"
+                    android:visibility="gone">
+
+                    <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                        android:id="@+id/empty_text_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="No Events"
+                        android:textColor="@color/x_calendar_events_text"
+                        android:textSize="19sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/error_loading_events_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="12dp"
+                    android:paddingTop="12dp"
+                    android:visibility="gone">
+
+                    <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                        android:id="@+id/error_text_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="Error loading dates"
+                        android:textColor="@color/x_calendar_events_text"
+                        android:textSize="19sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/loading_events_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="12dp"
+                    android:paddingTop="12dp"
+                    android:visibility="gone">
+
+                    <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:text="Loading"
+                        android:textColor="@color/x_calendar_events_text"
+                        android:textSize="19sp" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/events_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/cal_1_con"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="15dp"
+                        android:visibility="gone">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/boxes_footer_div" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingTop="15dp">
+
+                            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                                android:id="@+id/cal_1_sign_icon"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="12dp"
+                                android:layout_marginRight="12dp"
+                                android:src="@drawable/news"
+                                CusTint:tintVal="@color/x_calendar_events_icon" />
+
+                            <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                                android:id="@+id/cal_1_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:maxLines="3"
+                                android:text="SolutionsBricks Mobile Dev. Team"
+                                android:textColor="@color/x_calendar_events_text"
+                                android:textSize="19sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/cal_2_con"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="15dp"
+                        android:visibility="gone">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/boxes_footer_div" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingTop="15dp">
+
+                            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                                android:id="@+id/cal_2_sign_icon"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="12dp"
+                                android:layout_marginRight="12dp"
+                                android:src="@drawable/news"
+                                CusTint:tintVal="@color/x_calendar_events_icon" />
+
+                            <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                                android:id="@+id/cal_2_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:maxLines="3"
+                                android:text="SolutionsBricks Mobile Dev. Team"
+                                android:textColor="@color/x_calendar_events_text"
+                                android:textSize="19sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/cal_3_con"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="15dp"
+                        android:visibility="gone">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/boxes_footer_div" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingTop="15dp">
+
+                            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                                android:id="@+id/cal_3_sign_icon"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="12dp"
+                                android:layout_marginRight="12dp"
+                                android:src="@drawable/news"
+                                CusTint:tintVal="@color/x_calendar_events_icon" />
+
+                            <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                                android:id="@+id/cal_3_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:maxLines="3"
+                                android:text="SolutionsBricks Mobile Dev. Team"
+                                android:textColor="@color/x_calendar_events_text"
+                                android:textSize="19sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/cal_4_con"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingBottom="15dp"
+                        android:visibility="gone">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/boxes_footer_div" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingTop="15dp">
+
+                            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                                android:id="@+id/cal_4_sign_icon"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_gravity="center"
+                                android:layout_marginEnd="12dp"
+                                android:layout_marginRight="12dp"
+                                android:src="@drawable/news"
+                                CusTint:tintVal="@color/x_calendar_events_icon" />
+
+                            <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                                android:id="@+id/cal_4_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:maxLines="3"
+                                android:text="SolutionsBricks Mobile Dev. Team"
+                                android:textColor="@color/x_calendar_events_text"
+                                android:textSize="19sp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/cal_more_con"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/cal_list_more"
+                        android:orientation="vertical"
+                        android:paddingBottom="15dp"
+                        android:visibility="gone">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/boxes_footer_div" />
+
+
+                        <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                            android:id="@+id/cal_more_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:maxLines="3"
+                            android:paddingLeft="15dp"
+                            android:paddingRight="15dp"
+                            android:paddingTop="15dp"
+                            android:text="See more today dates"
+                            android:textColor="@color/x_calendar_events_text"
+                            android:textSize="19sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

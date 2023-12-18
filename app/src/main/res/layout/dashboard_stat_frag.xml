@@ -1,0 +1,802 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/stat_con"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <com.schoolmgmtsys.root.ssg.utils.vsGridLayout
+                android:columnCount="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp"
+                android:paddingTop="12dp">
+
+                <RelativeLayout
+android:visibility="gone"
+                    android:id="@+id/assignment_stat_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:src="@drawable/dash_stat_assignment" />
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/stat_assignment_head"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="Assignment"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <com.solutionsbricks.solbricksframework.helpers.CircularTextView
+                            android:id="@+id/stat_assignment_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="NA"
+                            android:textColor="@color/x_dash_side_button_text"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:id="@+id/attendance_stat_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:src="@drawable/dash_stat_attendance" />
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/stat_attendance_head"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="ATTENDANCE"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <com.solutionsbricks.solbricksframework.helpers.CircularTextView
+                            android:id="@+id/stat_attendance_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="NA"
+                            android:textColor="@color/x_dash_side_button_text"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:id="@+id/class_sch_stat_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:src="@drawable/dash_stat_class_sch" />
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/stat_class_sch_head"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="Schedule"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <com.solutionsbricks.solbricksframework.helpers.CircularTextView
+                            android:id="@+id/stat_class_sch_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="NA"
+                            android:textColor="@color/x_dash_side_button_text"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:id="@+id/events_stat_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:src="@drawable/dash_stat_events" />
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/events_sch_head"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="EVENTS"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <com.solutionsbricks.solbricksframework.helpers.CircularTextView
+                            android:id="@+id/stat_events_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="NA"
+                            android:textColor="@color/x_dash_side_button_text"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:id="@+id/media_center_stat_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:src="@drawable/dash_stat_media_center" />
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/media_center_head"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="MEDIA CENTER"
+                            android:textColor="@color/white"
+                            android:textSize="16sp" />
+
+                        <com.solutionsbricks.solbricksframework.helpers.CircularTextView
+                            android:id="@+id/stat_media_center_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="NA"
+                            android:textColor="@color/x_dash_side_button_text"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:id="@+id/Exams_list_stat_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:src="@drawable/dash_stat_exams" />
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/Exams_list_head"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="EXAMS LIST"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <com.solutionsbricks.solbricksframework.helpers.CircularTextView
+                            android:id="@+id/stat_Exams_list_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="NA"
+                            android:textColor="@color/x_dash_side_button_text"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+                <RelativeLayout
+android:visibility="gone"
+                    android:id="@+id/classes_stat_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:src="@drawable/dash_stat_classes" />
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/classes_head"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="CLASSES"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <com.solutionsbricks.solbricksframework.helpers.CircularTextView
+                            android:id="@+id/stat_classes_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="NA"
+                            android:textColor="@color/x_dash_side_button_text"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+
+
+
+
+<!--
+
+
+      <RelativeLayout
+
+                    android:id="@+id/students_stat_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:src="@drawable/dash_stat_student" />
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/stat_students_head"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="STUDENTS"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <com.solutionsbricks.solbricksframework.helpers.CircularTextView
+                            android:id="@+id/stat_students_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="NA"
+                            android:textColor="@color/x_dash_side_button_text"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+-->
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:layout_toRightOf="@+id/students_stat_con"
+                    android:id="@+id/teachers_stat_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:src="@drawable/dash_stat_teacher" />
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/stat_teachers_head"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="TEACHERS"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <com.solutionsbricks.solbricksframework.helpers.CircularTextView
+                            android:id="@+id/stat_teachers_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="NA"
+                            android:textColor="@color/x_dash_side_button_text"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+<!--
+
+
+                <RelativeLayout
+                    android:layout_toRightOf="@+id/teachers_stat_con"
+                    android:id="@+id/classes_stat_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:src="@drawable/dash_stat_classes" />
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/stat_classes_head"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="CLASSES"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <com.solutionsbricks.solbricksframework.helpers.CircularTextView
+                            android:id="@+id/stat_classes_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="NA"
+                            android:textColor="@color/x_dash_side_button_text"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+-->
+
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:id="@+id/invoices_stat_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:src="@drawable/dash_stat_clainvoices" />
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/invoices_head"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="INVOICES"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <com.solutionsbricks.solbricksframework.helpers.CircularTextView
+                            android:id="@+id/stat_invoices_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="NA"
+                            android:textColor="@color/x_dash_side_button_text"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+
+
+
+
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:id="@+id/messages_stat_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:src="@drawable/dash_stat_messaes" />
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/x_boxes_dashboard_stat_rings_size"
+                        android:layout_height="@dimen/x_boxes_dashboard_stat_rings_size">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/messages_head"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:text="MESSAGES"
+                            android:textColor="@color/white"
+                            android:textSize="18sp" />
+
+                        <com.solutionsbricks.solbricksframework.helpers.CircularTextView
+                            android:id="@+id/stat_messages_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginEnd="2dp"
+                            android:layout_marginRight="2dp"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:padding="6dp"
+                            android:text="NA"
+                            android:textColor="@color/x_dash_side_button_text"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+
+
+
+
+
+
+                </RelativeLayout>
+
+            </com.schoolmgmtsys.root.ssg.utils.vsGridLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/x_divider_color" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/polls_con"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:maxLines="2"
+                            android:text="Polls"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_main_text"
+                            android:textSize="20sp" />
+
+                        <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                            android:id="@+id/polls_count_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_sub_text"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/view_results_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                        android:id="@+id/view_results_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:text="View Votes"
+                        android:textColor="@color/x_dash_main_text"
+                        android:textSize="16sp" />
+
+
+                </LinearLayout>
+
+                <com.wang.avi.AVLoadingIndicatorView
+                    android:id="@+id/polls_progress"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:visibility="gone"
+                    app:indicatorColor="@color/x_dash_main_text"
+                    app:indicatorName="BallPulseIndicator" />
+
+            </RelativeLayout>
+
+
+            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                android:id="@+id/polls_title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:textAlignment="viewStart"
+                android:textColor="@color/x_dash_main_text"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:id="@+id/polls_data_con"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="6dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+

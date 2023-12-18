@@ -1,0 +1,157 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/log_full_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/background_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/x_login_back" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3d000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/log_logo_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/log_logo_margin"
+            android:layout_weight="40"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/school_logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:src="@drawable/logo2" />
+
+            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                android:id="@+id/school_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/x_login_school_name"
+                android:textColor="@color/x_login_school_name"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/log_inputs_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60">
+
+            <com.marvinlabs.widget.floatinglabel.edittext.FloatingLabelEditText
+                android:id="@+id/log_inputs_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/log_inputs_marg_edges"
+                android:layout_marginLeft="@dimen/log_inputs_marg_edges"
+                android:layout_marginEnd="@dimen/log_inputs_marg_edges"
+                android:layout_marginRight="@dimen/log_inputs_marg_edges"
+                android:layout_marginBottom="@dimen/log_inputs_marg_Bottom"
+                android:drawableStart="@drawable/ic_users"
+                android:drawableLeft="@drawable/ic_users"
+                android:drawablePadding="@dimen/log_inputs_marg_edges_half"
+                android:textDirection="ltr"
+                app:flw_inputWidgetTextColor="@color/white"
+                app:flw_labelText="Username / Email"
+                app:flw_labelTextColor="@color/x_hint_text_color" />
+
+            <com.marvinlabs.widget.floatinglabel.edittext.FloatingLabelEditText
+                android:id="@+id/log_inputs_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/log_inputs_user"
+                android:layout_marginStart="@dimen/log_inputs_marg_edges"
+                android:layout_marginLeft="@dimen/log_inputs_marg_edges"
+                android:layout_marginEnd="@dimen/log_inputs_marg_edges"
+                android:layout_marginRight="@dimen/log_inputs_marg_edges"
+                android:layout_marginBottom="@dimen/log_inputs_marg_Bottom"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawablePadding="@dimen/log_inputs_marg_edges_half"
+                android:inputType="textPassword"
+                android:textDirection="ltr"
+                app:flw_inputWidgetTextColor="@color/white"
+                app:flw_labelText="Password"
+                app:flw_labelTextColor="@color/x_hint_text_color" />
+
+            <com.dd.processbutton.iml.ActionProcessButton
+                android:id="@+id/log_inputs_signBtn"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_below="@id/log_inputs_pass"
+                android:layout_margin="@dimen/log_inputs_marg_edges"
+                android:text="Sign in"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                custom:pb_colorComplete="@color/green_complete"
+                custom:pb_colorNormal="#ff2c7ca3"
+                custom:pb_colorPressed="#ff1f5875"
+                custom:pb_colorProgress="@color/purple_progress"
+                custom:pb_textComplete="@string/log_btn_success"
+                custom:pb_textProgress="@string/log_btn_loading" />
+
+            <LinearLayout
+                android:id="@+id/demo_login_layout"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/log_inputs_signBtn"
+                android:layout_centerHorizontal="true">
+
+                <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:paddingTop="3dp"
+                    android:paddingBottom="6dp"
+                    android:text="Demo Login"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/x_gen_main_text"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/privacy_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true">
+
+                <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                    android:id="@+id/privacy_layout_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="start"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="15dp"
+                    android:text="Privacy policy"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/x_gen_main_text"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

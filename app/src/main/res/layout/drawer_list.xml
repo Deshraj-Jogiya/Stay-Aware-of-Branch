@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CusTint="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@color/x_drawer_header_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.solutionsbricks.solbricksframework.helpers.CustomImageView
+                android:id="@+id/drawer_user_img"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_toLeftOf="@+id/logout"
+                    android:layout_toStartOf="@id/logout"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp">
+
+                    <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                        android:id="@+id/drawer_user_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginStart="30dp"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/x_drawer_title_text"
+                        android:textSize="19sp" />
+
+                    <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                        android:id="@+id/drawer_user_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginStart="30dp"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/x_drawer_sub_title_text"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@id/logout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/drawer_logout_btn"
+                    android:orientation="horizontal">
+
+                    <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                        android:id="@+id/footer_username_icn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:src="@drawable/drawer_head_logout"
+                        CusTint:tintVal="@color/white" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+
+</LinearLayout>
