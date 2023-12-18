@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/col_grade_con"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_weight="30"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/main_marg2"
+    android:paddingRight="@dimen/main_marg2">
+
+    <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+        android:id="@+id/col_grade_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="NA"
+        android:textColor="@color/x_boxes_header_text"
+        android:textSize="@dimen/header_sub_char" />
+
+    <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+        android:id="@+id/col_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Final Grade"
+        android:textColor="@color/x_boxes_header_text"
+        android:textSize="@dimen/header_sub_content" />
+</LinearLayout>

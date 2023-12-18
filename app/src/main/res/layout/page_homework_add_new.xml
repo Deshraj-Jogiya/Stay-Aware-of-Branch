@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/background_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/x_gen_back" />
+
+    <include layout="@layout/header_loader" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:id="@+id/full_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar"
+            android:layoutDirection="ltr"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <com.marvinlabs.widget.floatinglabel.edittext.FloatingLabelEditText
+                android:id="@+id/homework_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/log_inputs_marg_edges"
+                android:layout_marginEnd="@dimen/log_inputs_marg_edges"
+                android:layout_marginLeft="@dimen/log_inputs_marg_edges"
+                android:layout_marginRight="@dimen/log_inputs_marg_edges"
+                android:layout_marginStart="@dimen/log_inputs_marg_edges"
+                android:focusable="false"
+                android:inputType="text"
+                app:flw_floatOnFocus="true"
+                app:flw_inputWidgetTextColor="@color/x_hint_text_color"
+                app:flw_labelText="Homework Title"
+                app:flw_labelTextColor="@color/x_hint_text_color" />
+
+            <com.marvinlabs.widget.floatinglabel.edittext.FloatingLabelEditText
+                android:id="@+id/homework_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/log_inputs_marg_edges"
+                android:layout_marginEnd="@dimen/log_inputs_marg_edges"
+                android:layout_marginLeft="@dimen/log_inputs_marg_edges"
+                android:layout_marginRight="@dimen/log_inputs_marg_edges"
+                android:layout_marginStart="@dimen/log_inputs_marg_edges"
+                android:focusable="false"
+                android:inputType="textMultiLine"
+                app:flw_floatOnFocus="true"
+                app:flw_inputWidgetTextColor="@color/x_hint_text_color"
+                app:flw_labelText="Homework Description"
+                app:flw_labelTextColor="@color/x_hint_text_color" />
+
+            <RelativeLayout
+                android:id="@+id/submission_date_input_con"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="@dimen/log_inputs_marg_edges"
+                android:layout_marginEnd="@dimen/log_inputs_marg_edges"
+                android:layout_marginLeft="@dimen/log_inputs_marg_edges"
+                android:layout_marginRight="@dimen/log_inputs_marg_edges"
+                android:layout_marginStart="@dimen/log_inputs_marg_edges"
+                android:gravity="start"
+                android:orientation="vertical">
+
+                <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                    android:id="@+id/submission_date_input_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="start"
+                    android:gravity="start"
+                    android:lineSpacingMultiplier="0.9"
+                    android:text="Date"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/x_hint_text_color"
+                    android:textSize="14sp" />
+
+
+                <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                    android:id="@+id/submission_date_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@id/submission_date_input_title"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="0dp"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="Click to pick date"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/x_dash_main_text"
+                    android:textSize="18sp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/evaluation_date_input_con"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="@dimen/log_inputs_marg_edges"
+                android:layout_marginEnd="@dimen/log_inputs_marg_edges"
+                android:layout_marginLeft="@dimen/log_inputs_marg_edges"
+                android:layout_marginRight="@dimen/log_inputs_marg_edges"
+                android:layout_marginStart="@dimen/log_inputs_marg_edges"
+                android:gravity="start"
+                android:orientation="vertical">
+
+                <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                    android:id="@+id/evaluation_date_input_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="start"
+                    android:gravity="start"
+                    android:lineSpacingMultiplier="0.9"
+                    android:text="Date"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/x_hint_text_color"
+                    android:textSize="14sp" />
+
+
+                <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                    android:id="@+id/evaluation_date_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@id/evaluation_date_input_title"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="0dp"
+                    android:gravity="start"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="Click to pick date"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/x_dash_main_text"
+                    android:textSize="18sp" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/log_inputs_marg_edges"
+                android:orientation="vertical">
+
+                <com.dd.processbutton.iml.ActionProcessButton xmlns:custom="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/add_file"
+                    android:layout_width="wrap_content"
+                    android:layout_height="42dp"
+                    android:text="Attachment"
+                    android:textColor="@color/x_dash_side_button_text"
+                    android:textSize="15sp"
+                    custom:pb_colorComplete="@color/x_dash_side_button_1_back_normal"
+                    custom:pb_colorNormal="@color/x_dash_side_button_1_back_normal"
+                    custom:pb_colorPressed="@color/x_dash_side_button_1_back_normal"
+                    custom:pb_colorProgress="@color/x_dash_side_button_1_back_normal"
+                    custom:pb_textComplete="@string/log_btn_success"
+                    custom:pb_textProgress="@string/log_btn_loading" />
+
+                <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                    android:id="@+id/add_file_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:gravity="start"
+                    android:lineSpacingMultiplier="0.9"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/x_hint_text_color"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <com.marvinlabs.widget.floatinglabel.itempicker.FloatingLabelItemPicker
+                android:id="@+id/control_class"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/log_inputs_marg_edges"
+                android:layout_marginEnd="@dimen/log_inputs_marg_edges"
+                android:layout_marginLeft="@dimen/log_inputs_marg_edges"
+                android:layout_marginRight="@dimen/log_inputs_marg_edges"
+                android:layout_marginStart="@dimen/log_inputs_marg_edges"
+                app:flw_inputWidgetTextColor="@color/white"
+                app:flw_labelText="Class"
+                app:flw_labelTextColor="@color/x_hint_text_color" />
+
+            <com.marvinlabs.widget.floatinglabel.itempicker.FloatingLabelItemPicker
+                android:id="@+id/control_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/log_inputs_marg_edges"
+                android:layout_marginEnd="@dimen/log_inputs_marg_edges"
+                android:layout_marginLeft="@dimen/log_inputs_marg_edges"
+                android:layout_marginRight="@dimen/log_inputs_marg_edges"
+                android:layout_marginStart="@dimen/log_inputs_marg_edges"
+                app:flw_inputWidgetTextColor="@color/white"
+                app:flw_labelText="Section"
+                app:flw_labelTextColor="@color/x_hint_text_color" />
+
+            <com.marvinlabs.widget.floatinglabel.itempicker.FloatingLabelItemPicker
+                android:id="@+id/control_subject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/log_inputs_marg_edges"
+                android:layout_marginEnd="@dimen/log_inputs_marg_edges"
+                android:layout_marginLeft="@dimen/log_inputs_marg_edges"
+                android:layout_marginRight="@dimen/log_inputs_marg_edges"
+                android:layout_marginStart="@dimen/log_inputs_marg_edges"
+                app:flw_inputWidgetTextColor="@color/white"
+                app:flw_labelText="Subject"
+                app:flw_labelTextColor="@color/x_hint_text_color" />
+
+
+            <com.dd.processbutton.iml.ActionProcessButton xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/process_data"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_margin="@dimen/log_inputs_marg_edges"
+                android:text="Add Homework"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                custom:pb_colorComplete="@color/green_complete"
+                custom:pb_colorNormal="@color/blue_normal"
+                custom:pb_colorPressed="@color/blue_pressed"
+                custom:pb_colorProgress="@color/purple_progress"
+                custom:pb_textComplete="@string/log_btn_success"
+                custom:pb_textProgress="@string/log_btn_loading" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

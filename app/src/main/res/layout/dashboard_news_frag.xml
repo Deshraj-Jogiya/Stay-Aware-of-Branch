@@ -1,0 +1,1090 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CusTint="http://schemas.android.com/apk/res-auto"
+    xmlns:LanguageManager="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/cal_con1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp">
+
+            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                android:id="@+id/calendar_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/side_buttons"
+                android:layout_toStartOf="@id/side_buttons"
+                android:gravity="start"
+                android:text="Upcoming Today"
+                android:textAlignment="viewStart"
+                android:textColor="@color/x_dash_header_text"
+                android:textSize="19sp"
+                LanguageManager:lang_source_id="upcomingToday" />
+
+            <LinearLayout
+                android:id="@id/side_buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true">
+
+                <LinearLayout
+                    android:id="@+id/calendar_see_more_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/dash_side_button_1"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp">
+
+                    <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                        android:id="@+id/calendar_see_more_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Calendar"
+                        android:textColor="@color/x_dash_side_button_text"
+                        android:textSize="@dimen/x_boxes_menu_text"
+                        LanguageManager:lang_source_id="Calendar" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/cal_con2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/no_toady_dates_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                        android:id="@+id/empty_img"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/no_events"
+                        CusTint:tintVal="@color/x_dash_main_text" />
+
+                    <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                        android:id="@+id/empty_text_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/empty_img"
+                        android:layout_centerHorizontal="true"
+                        android:paddingTop="12dp"
+                        android:text="No Events"
+                        android:textColor="@color/x_dash_main_text"
+                        android:textSize="19sp"
+                        LanguageManager:lang_source_id="noDatesToday" />
+
+                    <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/empty_text_1"
+                        android:layout_centerHorizontal="true"
+                        android:text="Tap to try again"
+                        android:textColor="@color/x_dash_sub_text"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/error_loading_toady_dates_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                        android:id="@+id/error_img"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/no_events"
+                        CusTint:tintVal="@color/x_dash_main_text" />
+
+                    <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                        android:id="@+id/error_text_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/error_img"
+                        android:layout_centerHorizontal="true"
+                        android:paddingTop="12dp"
+                        android:text="Error loading"
+                        android:textColor="@color/x_dash_main_text"
+                        android:textSize="19sp"
+                        LanguageManager:lang_source_id="errorLoading" />
+
+                    <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/error_text_1"
+                        android:layout_centerHorizontal="true"
+                        android:text="Tap to try again"
+                        android:textColor="@color/x_dash_sub_text"
+                        android:textSize="16sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/loading_toady_dates_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                        android:id="@+id/loading_img"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/no_events"
+                        CusTint:tintVal="@color/x_dash_main_text" />
+
+                    <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/loading_img"
+                        android:layout_centerHorizontal="true"
+                        android:padding="12dp"
+                        android:text="Loading"
+                        android:textColor="@color/x_dash_main_text"
+                        android:textSize="19sp"
+                        LanguageManager:lang_source_id="loading" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/today_dates_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/cal_1_con"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:visibility="gone">
+
+                        <RelativeLayout
+                            android:id="@+id/cal_1_sign_icon_con"
+                            android:layout_width="30dp"
+                            android:layout_height="35dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginRight="12dp">
+
+                            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                                android:id="@+id/cal_1_sign_icon"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/date"
+                                CusTint:tintVal="@color/x_dash_icons" />
+
+                            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                                android:id="@+id/cal_1_urgent_icon"
+                                android:layout_width="16dp"
+                                android:layout_height="16dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_gravity="center"
+                                android:src="@drawable/urgent"
+                                CusTint:tintVal="@color/x_dash_side_button_1_back_normal" />
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toEndOf="@id/cal_1_sign_icon_con"
+                            android:layout_toRightOf="@id/cal_1_sign_icon_con"
+                            android:orientation="vertical">
+
+
+                            <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                                android:id="@+id/cal_1_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/x_dash_main_text"
+                                android:textSize="19sp" />
+
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/cal_2_con"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:visibility="gone">
+
+                        <RelativeLayout
+                            android:id="@+id/cal_2_sign_icon_con"
+                            android:layout_width="30dp"
+                            android:layout_height="35dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginRight="12dp">
+
+                            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                                android:id="@+id/cal_2_sign_icon"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/date"
+                                CusTint:tintVal="@color/x_dash_icons" />
+
+                            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                                android:id="@+id/cal_2_urgent_icon"
+                                android:layout_width="16dp"
+                                android:layout_height="16dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_gravity="center"
+                                android:src="@drawable/urgent"
+                                CusTint:tintVal="@color/x_dash_side_button_1_back_normal" />
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toEndOf="@id/cal_2_sign_icon_con"
+                            android:layout_toRightOf="@id/cal_2_sign_icon_con"
+                            android:orientation="vertical">
+
+
+                            <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                                android:id="@+id/cal_2_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/x_dash_main_text"
+                                android:textSize="19sp" />
+
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/cal_3_con"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:visibility="gone">
+
+                        <RelativeLayout
+                            android:id="@+id/cal_3_sign_icon_con"
+                            android:layout_width="30dp"
+                            android:layout_height="35dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginRight="12dp">
+
+                            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                                android:id="@+id/cal_3_sign_icon"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/date"
+                                CusTint:tintVal="@color/x_dash_icons" />
+
+                            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                                android:id="@+id/cal_3_urgent_icon"
+                                android:layout_width="16dp"
+                                android:layout_height="16dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_gravity="center"
+                                android:src="@drawable/urgent"
+                                CusTint:tintVal="@color/x_dash_side_button_1_back_normal" />
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toEndOf="@id/cal_3_sign_icon_con"
+                            android:layout_toRightOf="@id/cal_3_sign_icon_con"
+                            android:orientation="vertical">
+
+
+                            <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                                android:id="@+id/cal_3_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/x_dash_main_text"
+                                android:textSize="19sp" />
+
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/cal_4_con"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp"
+                        android:visibility="gone">
+
+                        <RelativeLayout
+                            android:id="@+id/cal_4_sign_icon_con"
+                            android:layout_width="30dp"
+                            android:layout_height="35dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginEnd="12dp"
+                            android:layout_marginRight="12dp">
+
+                            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                                android:id="@+id/cal_4_sign_icon"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/date"
+                                CusTint:tintVal="@color/x_dash_icons" />
+
+                            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                                android:id="@+id/cal_4_urgent_icon"
+                                android:layout_width="16dp"
+                                android:layout_height="16dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:layout_gravity="center"
+                                android:src="@drawable/urgent"
+                                CusTint:tintVal="@color/x_dash_side_button_1_back_normal" />
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_toEndOf="@id/cal_4_sign_icon_con"
+                            android:layout_toRightOf="@id/cal_4_sign_icon_con"
+                            android:orientation="vertical">
+
+
+                            <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                                android:id="@+id/cal_4_title"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/x_dash_main_text"
+                                android:textSize="19sp" />
+
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/cal_more_con"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="12dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginStart="5dp">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                            android:id="@+id/cal_more_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:text="+5"
+                            android:paddingRight="5dp"
+                            android:paddingEnd="5dp"
+                            android:textColor="@color/x_dash_main_text"
+                            android:textSize="19sp" />
+
+                        <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:text="events"
+                            android:textColor="@color/x_dash_main_text"
+                            android:textSize="19sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <View
+            android:id="@+id/cal_div"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/x_divider_color" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp">
+
+            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                android:id="@+id/news_events_head"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/side_buttons"
+                android:layout_toStartOf="@id/side_buttons"
+                android:gravity="start"
+                android:text="News - Events"
+                android:textAlignment="viewStart"
+                android:textColor="@color/x_dash_header_text"
+                android:textSize="19sp"
+                LanguageManager:lang_source_id="NewsEvents" />
+
+            <LinearLayout
+                android:id="@id/side_buttons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true">
+
+                <LinearLayout
+                    android:id="@+id/events_see_more_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/dash_side_button_2"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:visibility="gone">
+
+                    <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                        android:id="@+id/events_see_more_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Events"
+                        android:textColor="@color/x_dash_side_button_text"
+                        android:textSize="@dimen/x_boxes_menu_text"
+                        LanguageManager:lang_source_id="events" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/news_see_more_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/dash_side_button_1"
+                    android:orientation="horizontal"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:visibility="gone">
+
+                    <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                        android:id="@+id/news_see_more_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="News"
+                        android:textColor="@color/x_dash_side_button_text"
+                        android:textSize="@dimen/x_boxes_menu_text"
+                        LanguageManager:lang_source_id="listNews" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:id="@+id/no_news_con"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                    android:id="@+id/empty_news_img"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/no_news"
+                    CusTint:tintVal="@color/x_dash_icons" />
+
+                <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/empty_news_img"
+                    android:layout_centerHorizontal="true"
+                    android:padding="12dp"
+                    android:text="No news or events yet"
+                    android:textColor="@color/x_dash_main_text"
+                    android:textSize="19sp"
+                    LanguageManager:lang_source_id="noNews" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/news_con"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/news_1_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:id="@+id/news_1_sign_icon_con"
+                        android:layout_width="30dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginRight="12dp">
+
+                        <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                            android:id="@+id/news_1_sign_icon"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/news"
+                            CusTint:tintVal="@color/x_dash_icons" />
+
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/news_1_sign_icon_con"
+                        android:layout_toRightOf="@id/news_1_sign_icon_con"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:orientation="horizontal">
+
+                            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                                android:layout_width="22dp"
+                                android:layout_height="22dp"
+                                android:layout_gravity="start|center_vertical"
+                                android:paddingEnd="3dp"
+                                android:paddingRight="3dp"
+                                android:src="@drawable/ic_timepicker"
+                                CusTint:tintVal="@color/x_dash_sub_text" />
+
+                            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                                android:id="@+id/news_1_date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start|center_vertical"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/x_dash_sub_text"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+
+                        <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                            android:id="@+id/news_1_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_main_text"
+                            android:textSize="19sp" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/news_2_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:id="@+id/news_2_sign_icon_con"
+                        android:layout_width="30dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginRight="12dp">
+
+                        <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                            android:id="@+id/news_2_sign_icon"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/news"
+                            CusTint:tintVal="@color/x_dash_icons" />
+
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/news_2_sign_icon_con"
+                        android:layout_toRightOf="@id/news_2_sign_icon_con"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:orientation="horizontal">
+
+                            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                                android:layout_width="22dp"
+                                android:layout_height="22dp"
+                                android:layout_gravity="start|center_vertical"
+                                android:paddingEnd="3dp"
+                                android:paddingRight="3dp"
+                                android:src="@drawable/ic_timepicker"
+                                CusTint:tintVal="@color/x_dash_sub_text" />
+
+                            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                                android:id="@+id/news_2_date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start|center_vertical"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/x_dash_sub_text"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+
+                        <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                            android:id="@+id/news_2_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_main_text"
+                            android:textSize="19sp" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/news_3_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:id="@+id/news_3_sign_icon_con"
+                        android:layout_width="30dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginRight="12dp">
+
+                        <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                            android:id="@+id/news_3_sign_icon"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/news"
+                            CusTint:tintVal="@color/x_dash_icons" />
+
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/news_3_sign_icon_con"
+                        android:layout_toRightOf="@id/news_3_sign_icon_con"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:orientation="horizontal">
+
+                            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                                android:layout_width="22dp"
+                                android:layout_height="22dp"
+                                android:layout_gravity="start|center_vertical"
+                                android:paddingEnd="3dp"
+                                android:paddingRight="3dp"
+                                android:src="@drawable/ic_timepicker"
+                                CusTint:tintVal="@color/x_dash_sub_text" />
+
+                            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                                android:id="@+id/news_3_date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start|center_vertical"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/x_dash_sub_text"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+
+                        <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                            android:id="@+id/news_3_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_main_text"
+                            android:textSize="19sp" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/news_4_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:id="@+id/news_4_sign_icon_con"
+                        android:layout_width="30dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginRight="12dp">
+
+                        <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                            android:id="@+id/news_4_sign_icon"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/news"
+                            CusTint:tintVal="@color/x_dash_icons" />
+
+
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/news_4_sign_icon_con"
+                        android:layout_toRightOf="@id/news_4_sign_icon_con"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:orientation="horizontal">
+
+                            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                                android:layout_width="22dp"
+                                android:layout_height="22dp"
+                                android:layout_gravity="start|center_vertical"
+                                android:paddingEnd="3dp"
+                                android:paddingRight="3dp"
+                                android:src="@drawable/ic_timepicker"
+                                CusTint:tintVal="@color/x_dash_sub_text" />
+
+                            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                                android:id="@+id/news_4_date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start|center_vertical"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/x_dash_sub_text"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+
+                        <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                            android:id="@+id/news_4_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_main_text"
+                            android:textSize="19sp" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/news_5_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:id="@+id/news_5_sign_icon_con"
+                        android:layout_width="30dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginRight="12dp">
+
+                        <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                            android:id="@+id/news_5_sign_icon"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/news"
+                            CusTint:tintVal="@color/x_dash_icons" />
+
+
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/news_5_sign_icon_con"
+                        android:layout_toRightOf="@id/news_5_sign_icon_con"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:orientation="horizontal">
+
+                            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                                android:layout_width="22dp"
+                                android:layout_height="22dp"
+                                android:layout_gravity="start|center_vertical"
+                                android:paddingEnd="3dp"
+                                android:paddingRight="3dp"
+                                android:src="@drawable/ic_timepicker"
+                                CusTint:tintVal="@color/x_dash_sub_text" />
+
+                            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                                android:id="@+id/news_5_date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start|center_vertical"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/x_dash_sub_text"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+
+                        <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                            android:id="@+id/news_5_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_main_text"
+                            android:textSize="19sp" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/news_6_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:id="@+id/news_6_sign_icon_con"
+                        android:layout_width="30dp"
+                        android:layout_height="35dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="12dp"
+                        android:layout_marginRight="12dp">
+
+                        <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                            android:id="@+id/news_6_sign_icon"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/news"
+                            CusTint:tintVal="@color/x_dash_icons" />
+
+
+                    </RelativeLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toEndOf="@id/news_6_sign_icon_con"
+                        android:layout_toRightOf="@id/news_6_sign_icon_con"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:orientation="horizontal">
+
+                            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                                android:layout_width="22dp"
+                                android:layout_height="22dp"
+                                android:layout_gravity="start|center_vertical"
+                                android:paddingEnd="3dp"
+                                android:paddingRight="3dp"
+                                android:src="@drawable/ic_timepicker"
+                                CusTint:tintVal="@color/x_dash_sub_text" />
+
+                            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                                android:id="@+id/news_6_date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start|center_vertical"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/x_dash_sub_text"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+
+                        <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                            android:id="@+id/news_6_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_dash_main_text"
+                            android:textSize="19sp" />
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

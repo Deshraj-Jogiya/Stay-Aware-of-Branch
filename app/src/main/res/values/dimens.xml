@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+	
+    <dimen name="log_logo_margin">15dp</dimen>
+	<dimen name="log_img_margin">7dp</dimen>
+	<dimen name="log_inputs_marg_Bottom">10dp</dimen>
+	<dimen name="log_inputs_marg_edges">15dp</dimen>
+	<dimen name="log_inputs_marg_edges_half">7.5dp</dimen>
+	<dimen name="log_img_corners">5dp</dimen>
+
+
+    <dimen name="header_left_right_padd">10dp</dimen>
+    <dimen name="header_top_bottom_padd">11dp</dimen>
+    <dimen name="header_txt_left_padd">10dp</dimen>
+
+    <dimen name="dash_stat_marg">12dp</dimen>
+
+    <dimen name="header_txt_size">19sp</dimen>
+    <dimen name="dash_stat_txt">20sp</dimen>
+    <dimen name="dash_news_txt">17sp</dimen>
+    <dimen name="dash_full_news_txt">14sp</dimen>
+
+    <dimen name="menu_icons_padd1">5dp</dimen>
+    <dimen name="menu_icons_padd1_1">8dp</dimen>
+    <dimen name="menu_icons_padd2">10dp</dimen>
+    <dimen name="menu_icons_padd3">15dp</dimen>
+
+    <dimen name="img_marg">10dp</dimen>
+
+
+    <dimen name="main_marg1">5dp</dimen>
+    <dimen name="main_marg2">10dp</dimen>
+    <dimen name="main_marg3">15dp</dimen>
+
+    <dimen name="footer_title">14sp</dimen>
+    <dimen name="footer_data">14sp</dimen>
+
+    <dimen name="header_char">50sp</dimen>
+    <dimen name="header_sub_char">30sp</dimen>
+    <dimen name="header_title">20sp</dimen>
+    <dimen name="header_title2">30sp</dimen>
+    <dimen name="header_title3">25sp</dimen>
+    <dimen name="header_content2">19sp</dimen>
+    <dimen name="header_content">17sp</dimen>
+    <dimen name="header_sub_content">12sp</dimen>
+    <dimen name="header_sub_content2">15sp</dimen>
+
+    <dimen name="menu_top">8dp</dimen>
+    <dimen name="menu_right">12dp</dimen>
+    <dimen name="menu_img">5dp</dimen>
+
+    <dimen name="header_top">10dp</dimen>
+    <dimen name="header_left">20dp</dimen>
+
+    <dimen name="footer_left">15dp</dimen>
+    <dimen name="footer_bottom">8dp</dimen>
+
+
+
+
+
+    <dimen name="x_boxes_cards_corner_radius">10dp</dimen>
+    <dimen name="x_boxes_cards_margin_left_right">12dp</dimen>
+    <dimen name="x_boxes_cards_margin_top">5dp</dimen>
+    <dimen name="x_boxes_cards_margin_bottom">5dp</dimen>
+    <dimen name="x_boxes_title_text_size">22sp</dimen>
+    <dimen name="x_boxes_sub_title_text_size">16sp</dimen>
+    <dimen name="x_boxes_icon_title_size">15sp</dimen>
+    <dimen name="x_boxes_icon_sub_title_size">14sp</dimen>
+    <dimen name="x_boxes_icon_small_title_size">14sp</dimen>
+    <dimen name="x_boxes_icon_size">34dp</dimen>
+    <dimen name="x_boxes_menu_text">14sp</dimen>
+    <dimen name="x_boxes_top_date_text">14sp</dimen>
+    <dimen name="x_boxes_dashboard_stat_rings_size">100dp</dimen>
+
+</resources>

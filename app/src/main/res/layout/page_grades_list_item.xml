@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/x_boxes_cards_margin_bottom"
+        android:layout_marginLeft="@dimen/x_boxes_cards_margin_left_right"
+        android:layout_marginRight="@dimen/x_boxes_cards_margin_left_right"
+        android:layout_marginTop="@dimen/x_boxes_cards_margin_top"
+        card_view:cardCornerRadius="@dimen/x_boxes_cards_corner_radius"
+        card_view:cardBackgroundColor="@color/x_boxes_container_back"
+        card_view:cardElevation="3dp"
+        card_view:cardPreventCornerOverlap="false"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:id="@+id/holder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="13dp">
+
+            <LinearLayout
+                android:id="@+id/header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                        android:id="@+id/header_char"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingEnd="@dimen/header_top"
+                        android:paddingRight="@dimen/header_top"
+                        android:paddingLeft="@dimen/header_left"
+                        android:paddingStart="@dimen/header_left"
+                        android:paddingTop="@dimen/header_top"
+                        android:text="A+"
+                        android:textAlignment="viewStart"
+                        android:gravity="start"
+                        android:textColor="@color/x_boxes_header_text"
+                        android:textSize="@dimen/header_title" />
+
+                    <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                        android:id="@+id/header_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingEnd="@dimen/header_top"
+                        android:paddingLeft="@dimen/header_left"
+                        android:paddingStart="@dimen/header_left"
+                        android:paddingRight="@dimen/header_top"
+                        android:textAlignment="viewStart"
+                        android:text="ada"
+                        android:gravity="start"
+                        android:textColor="@color/x_boxes_sub_title_text"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/footer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="@dimen/header_top"
+                    android:paddingTop="@dimen/header_top">
+
+                    <LinearLayout
+                        android:id="@+id/point_from_con"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingEnd="@dimen/main_marg3"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="@dimen/main_marg3"
+                        android:paddingStart="20dp">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.BoldStyledTextView
+                            android:id="@+id/from"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:text="FROM"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_boxes_header_text"
+                            android:textSize="@dimen/header_sub_content2" />
+
+                        <com.schoolmgmtsys.root.ssg.fonts.BoldStyledTextView
+                            android:id="@+id/point_from_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:paddingLeft="@dimen/main_marg1"
+                            android:paddingStart="@dimen/main_marg1"
+                            android:text="9"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_boxes_header_text"
+                            android:textSize="@dimen/header_sub_content2" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/point_to_con"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingEnd="@dimen/main_marg2"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="@dimen/main_marg2"
+                        android:paddingStart="20dp">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.BoldStyledTextView
+                            android:id="@+id/to"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:text="TO"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_boxes_header_text"
+                            android:textSize="@dimen/header_sub_content2" />
+
+                        <com.schoolmgmtsys.root.ssg.fonts.BoldStyledTextView
+                            android:id="@+id/point_to_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start"
+                            android:paddingLeft="@dimen/main_marg1"
+                            android:paddingStart="@dimen/main_marg1"
+                            android:text="9"
+                            android:textAlignment="viewStart"
+                            android:textColor="@color/x_boxes_header_text"
+                            android:textSize="@dimen/header_sub_content2" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@id/menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/menu_right"
+                android:paddingEnd="@dimen/menu_right"
+                android:paddingRight="@dimen/menu_right"
+                android:paddingTop="@dimen/menu_top">
+
+
+                <LinearLayout
+                    android:id="@+id/point_total_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:paddingEnd="@dimen/main_marg2"
+                    android:paddingRight="@dimen/main_marg2">
+
+                    <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                        android:id="@+id/point_total_data"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="9"
+                        android:textAlignment="center"
+                        android:textColor="@color/x_boxes_header_text"
+                        android:textSize="@dimen/header_sub_char" />
+
+                    <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                        android:id="@+id/gradePoint"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="POINTS"
+                        android:textAlignment="center"
+                        android:textColor="@color/x_boxes_header_text"
+                        android:textSize="@dimen/header_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

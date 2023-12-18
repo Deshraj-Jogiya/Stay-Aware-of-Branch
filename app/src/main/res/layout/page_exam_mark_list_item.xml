@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CusTint="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/x_boxes_cards_margin_bottom"
+        android:layout_marginLeft="@dimen/x_boxes_cards_margin_left_right"
+        android:layout_marginRight="@dimen/x_boxes_cards_margin_left_right"
+        android:layout_marginTop="@dimen/x_boxes_cards_margin_top"
+        card_view:cardBackgroundColor="@color/x_boxes_container_back"
+        card_view:cardCornerRadius="@dimen/x_boxes_cards_corner_radius"
+        card_view:cardElevation="3dp"
+        card_view:cardPreventCornerOverlap="false"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:id="@+id/holder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/header_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <RelativeLayout
+                    android:id="@+id/header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <RelativeLayout
+                        android:id="@+id/header_con"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                            android:id="@+id/header_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@+id/grade_con"
+                            android:layout_toStartOf="@+id/grade_con"
+                            android:paddingEnd="@dimen/header_top"
+                            android:paddingLeft="@dimen/header_left"
+                            android:paddingRight="@dimen/header_top"
+                            android:paddingStart="@dimen/header_left"
+                            android:paddingTop="@dimen/header_top"
+                            android:text="NA"
+                            android:textAlignment="viewStart"
+                            android:gravity="start"
+                            android:textColor="@color/x_boxes_header_text"
+                            android:textSize="@dimen/header_title3" />
+
+
+                        <LinearLayout
+                            android:id="@+id/grade_con"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:orientation="vertical"
+                            android:paddingEnd="@dimen/main_marg2"
+                            android:paddingRight="@dimen/main_marg2"
+                            android:paddingTop="@dimen/main_marg2">
+
+                            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                                android:id="@+id/roll_id_data"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="NA"
+                                android:textAlignment="center"
+                                android:textColor="@color/x_boxes_header_text"
+                                android:textSize="@dimen/header_sub_char" />
+
+                            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                                android:id="@+id/rollid"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:text="Roll ID"
+                                android:textAlignment="center"
+                                android:textColor="@color/x_boxes_header_text"
+                                android:textSize="@dimen/header_sub_content" />
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/header_div"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@id/header_con"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/boxes_footer_div" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/footer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/header_menu"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/exam_mark_con"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingRight="12dp"
+                    android:paddingLeft="12dp"
+                    android:orientation="vertical">
+
+
+                    <com.marvinlabs.widget.floatinglabel.edittext.FloatingLabelEditText
+                        android:id="@+id/footer_totalMarks_data"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:focusable="true"
+                        android:inputType="phone"
+                        app:flw_floatOnFocus="false"
+                        app:flw_inputWidgetTextColor="@color/x_boxes_header_text"
+                        app:flw_inputWidgetTextSize="20sp" />
+
+                    <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                        android:id="@+id/totalMarks"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Total"
+                        android:textColor="@color/x_boxes_header_text"
+                        android:textSize="@dimen/header_sub_content" />
+                </LinearLayout>
+
+                <com.marvinlabs.widget.floatinglabel.edittext.FloatingLabelEditText
+                    android:id="@+id/footer_comment_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:flw_labelTextSize="18sp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    app:flw_inputWidgetTextSize="22sp"
+                    app:flw_inputWidgetTextColor="@color/x_boxes_header_text"
+                    app:flw_labelText="Comments"
+                    app:flw_labelTextColor="@color/x_hint_text_color" />
+
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/header_div2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/footer2"
+                android:layout_marginTop="@dimen/menu_icons_padd2"
+                android:layout_marginBottom="@dimen/menu_icons_padd2"
+                android:background="@color/boxes_footer_div" />
+
+            <org.apmem.tools.layouts.FlowLayout
+                android:id="@+id/footer3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/header_div2"
+                android:layout_margin="@dimen/menu_icons_padd2"
+                android:gravity="fill"
+                android:orientation="horizontal">
+
+            </org.apmem.tools.layouts.FlowLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
