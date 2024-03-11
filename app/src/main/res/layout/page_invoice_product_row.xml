@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:paddingTop="8dp"
+    android:layout_gravity="center"
+    android:orientation="horizontal">
+
+    <com.schoolmgmtsys.root.ssg.fonts.BoldStyledTextView
+        android:id="@+id/product"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="NA"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:textAlignment="viewStart"
+        android:layout_toLeftOf="@+id/subtotal"
+        android:layout_toStartOf="@+id/subtotal"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/x_boxes_main_text"
+        android:textSize="17sp" />
+
+    <com.schoolmgmtsys.root.ssg.fonts.BoldStyledTextView
+        android:id="@id/subtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="NA"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="viewStart"
+        android:textColor="@color/x_boxes_main_text"
+        android:textSize="16sp" />
+</RelativeLayout>

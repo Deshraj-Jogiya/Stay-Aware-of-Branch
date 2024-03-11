@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+    <color name="app_list_bg">#e6e6e6</color>
+    <color name="boxes_footer_div">#5e878787</color>
+    <color name="text_color">#878787</color>
+
+    <color name="white">#ffffff</color>
+    <color name="hint_txt_color">#b4b4b4</color>
+    <color name="half_transparent">#12ffffff</color>
+
+    <color name="cornflower_blue">#6274e2</color>
+    <color name="cornflower_blue_dark">#303F9F</color>
+    <color name="cornflower_blue_darkest">#2d3a93</color>
+    <color name="gray">#ebebeb</color>
+    <color name="gray_light">#e8e8e8</color>
+    <color name="gray_transparent">#a6efefef</color>
+    <color name="gray_dark">#858585</color>
+    <color name="gray_dark_transparent">#ae858585</color>
+    <color name="gray_darkest">#ae282828</color>
+    <color name="black">#000000</color>
+    <color name="black_10">#19000000</color>
+    <color name="ivory">#f8efe6</color>
+    <color name="ivory_dark">#f7e8d9</color>
+    <color name="green">#38be55</color>
+    <color name="green_dark">#2da346</color>
+    <color name="red">#e94f4f</color>
+    <color name="brown">#4e342e</color>
+
+    <color name="messages_empty_error">#8e8e8e</color>
+
+
+
+    <color name="x_header_back_transparent">#002d2d2d</color>
+
+    <color name="x_header_icons">#ffffff</color>
+    <color name="x_header_back">#2d2d2d</color>
+    <color name="x_header_text">#ffffff</color>
+
+    <color name="x_drawer_icons">#11668C</color>
+    <color name="x_drawer_text">#11668C</color>
+
+    <color name="x_login_back">#696969</color>
+    <color name="x_login_school_name">#ffffff</color>
+
+    <color name="x_dash_header_text">#404242</color>
+    <color name="x_dash_main_text">#ffffff</color>
+    <color name="x_dash_sub_text">#BCBCBB</color>
+    <color name="x_dash_icons">#ff1d5674</color>
+    <color name="x_dash_box_back">#ededed</color>
+
+    <color name="x_gen_back">#696969</color>
+    <color name="x_gen_header_text">#ff2b2b2b</color>
+    <color name="x_boxes_header_text">#ff434543</color>
+    <color name="x_gen_sub_text">#ff848484</color>
+    <color name="x_gen_icons">#ff2b2b2b</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <color name="x_drawer_header_color">#282E3A</color>
+    <color name="x_drawer_title_text">#ffffff</color>
+    <color name="x_drawer_sub_title_text">#d2d2d2</color>
+    <color name="x_drawer_list_item_text">#333333</color>
+    <color name="x_drawer_icon_normal">#E9484E</color>
+    <color name="x_drawer_icon_pressed">#a43034</color>
+
+    <color name="x_boxes_title_text">#333333</color>
+    <color name="x_boxes_sub_title_text">#848484</color>
+
+    <color name="x_boxes_menu_icon">#ffffff</color>
+    <color name="x_boxes_menu_icon_background_normal">#4782AD</color>
+    <color name="x_boxes_menu_icon_background_pressed">#366587</color>
+
+    <color name="x_boxes_menu_text">#ffffff</color>
+    <color name="x_boxes_menu_text_background">#E9484E</color>
+
+    <color name="x_boxes_top_date_text">#E9484E</color>
+
+    <color name="x_dashboard_stat_background">#E9484E</color>
+
+
+    <color name="x_dash_side_button_1_back_normal">#4782AD</color>
+    <color name="x_dash_side_button_1_back_pressed">#39688b</color>
+    <color name="x_dash_side_button_2_back_normal">#E94E43</color>
+    <color name="x_dash_side_button_2_back_pressed">#b93b32</color>
+    <color name="x_dash_side_button_text">#ffffff</color>
+
+
+    <color name="x_calendar_no_filled_back">#71000000</color>
+    <color name="x_calendar_filled_back">#f96060</color>
+    <color name="x_calendar_more_back_normal">#d64e4e</color>
+    <color name="x_calendar_more_back_pressed">#ac3c3c</color>
+    <color name="x_calendar_text_color">#ffffff</color>
+
+    <color name="x_divider_color">#48ffffff</color>
+
+    <color name="x_dash_urgent">#E94E43</color>
+    -->
+
+
+</resources>

@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CusTint="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@color/white">
+
+    <include layout="@layout/header_user_colored" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar">
+
+
+        <RelativeLayout
+            android:id="@+id/messagesListLoaderCon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/dialog_loader"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerInParent="true"
+                android:padding="15dp"
+                app:indicatorColor="#E9484E"
+                app:indicatorName="LineScalePulseOutRapidIndicator" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:padding="@dimen/main_marg2"
+                android:src="@drawable/failed"
+                CusTint:tintVal="@color/messages_empty_error" />
+
+            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="No Messages"
+                android:textAlignment="center"
+                android:textColor="@color/messages_empty_error"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/error_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:padding="@dimen/main_marg2"
+                android:src="@drawable/failed"
+                CusTint:tintVal="@color/messages_empty_error" />
+
+            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="Loading Error"
+                android:textAlignment="center"
+                android:textColor="@color/messages_empty_error"
+                android:textSize="19sp" />
+
+            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Tap to try again"
+                android:textAlignment="center"
+                android:textColor="@color/messages_empty_error"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <com.stfalcon.chatkit.messages.MessagesList
+                android:id="@+id/messagesList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/inputCon"
+                app:incomingAvatarHeight="56dp"
+                app:incomingAvatarWidth="56dp"
+                app:incomingBubbleDrawable="@drawable/bg_custom_incoming_message"
+                app:outcomingBubbleDrawable="@drawable/bg_custom_outcoming_message"
+                app:outcomingTimeTextColor="@color/gray_dark_transparent" />
+
+
+            <RelativeLayout
+                android:id="@+id/inputCon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@color/gray_light" />
+
+                <com.stfalcon.chatkit.messages.MessageInput
+                    android:id="@+id/input"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:attachmentButtonBackground="?attr/selectableItemBackgroundBorderless"
+                    app:attachmentButtonDefaultIconColor="@color/green"
+                    app:attachmentButtonDefaultIconPressedColor="@color/green_dark"
+                    app:attachmentButtonHeight="27dp"
+                    app:attachmentButtonWidth="27dp"
+                    app:inputButtonBackground="@drawable/bg_custom_layout_send"
+                    app:inputButtonDefaultIconColor="@color/white"
+                    app:inputButtonDefaultIconDisabledColor="@color/white60"
+                    app:inputHint="@string/hint_enter_a_message"
+                    app:showAttachmentButton="false" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

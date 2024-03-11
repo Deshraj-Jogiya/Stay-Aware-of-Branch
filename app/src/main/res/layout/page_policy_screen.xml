@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CusTint="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/background_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/x_gen_back"
+        android:scaleType="centerCrop"
+        />
+
+<RelativeLayout
+    android:id="@+id/rl_main"
+    android:layout_width="match_parent"
+    android:layout_height="58dp" >
+
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="30dp"
+        android:padding="2dp"
+        CusTint:srcCompat="@drawable/ic_back"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/image_lebel"
+        android:text="Policy"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</RelativeLayout>
+
+<!--
+    <FrameLayout
+        android:id="@+id/full_layout"
+        android:layout_width="match_parent"
+      +  android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/footer"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:id="@+id/empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/img_view_receipt"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+-->
+    <ScrollView
+        android:layout_above="@+id/attendance_con"
+
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_main"
+
+        android:scrollbars="vertical"
+        android:fillViewport="true">
+        <TextView
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:id="@+id/policy_text"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="match_parent" />
+
+    </ScrollView>
+
+    <org.apmem.tools.layouts.FlowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/attendance_con"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vacation_con"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+
+        android:layout_alignParentBottom="true"
+        android:gravity="fill">
+
+        <RelativeLayout
+
+            android:id="@+id/status_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_blue1"
+            android:layout_margin="5dp"
+            android:paddingRight="12dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            >
+
+            <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                android:id="@+id/Present"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Agree"
+                android:textSize="@dimen/footer_data"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/status_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_red1"
+            android:layout_margin="5dp"
+            android:paddingRight="12dp"
+            android:paddingLeft="12dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:gravity="center">
+
+            <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                android:id="@+id/Absent"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disagree"
+                android:textSize="@dimen/footer_data"
+                android:textColor="@color/white" />
+
+        </RelativeLayout>
+
+    </org.apmem.tools.layouts.FlowLayout>
+
+
+</RelativeLayout>

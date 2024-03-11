@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/FilePicker" />
+            <option value="$PROJECT_DIR$/FlycoTabLayoutLib" />
+            <option value="$PROJECT_DIR$/ImageViewer" />
+            <option value="$PROJECT_DIR$/MaterialTabs" />
+            <option value="$PROJECT_DIR$/SlidingMenu" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/calenderView" />
+            <option value="$PROJECT_DIR$/chatkit" />
+            <option value="$PROJECT_DIR$/countTextView" />
+            <option value="$PROJECT_DIR$/dialogPlusLib" />
+            <option value="$PROJECT_DIR$/expandablerecyclerview" />
+            <option value="$PROJECT_DIR$/floatInputLib" />
+            <option value="$PROJECT_DIR$/solbrickscal" />
+            <option value="$PROJECT_DIR$/sweetAlertDialog" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+    <option name="offlineMode" value="true" />
+  </component>
+</project>

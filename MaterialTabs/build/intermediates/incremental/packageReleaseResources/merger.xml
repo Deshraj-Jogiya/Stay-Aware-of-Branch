@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\res"/><source path="C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\build\generated\res\rs\release"/><source path="C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\build\generated\res\resValues\release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\res"><file name="mt_tab" path="C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\res\layout\mt_tab.xml" qualifiers="" type="layout"/><file path="C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\res\values\attrs.xml" qualifiers=""><declare-styleable name="MaterialTabs">
+        <attr format="color" name="mtIndicatorColor"/>
+        <attr format="color" name="mtUnderlineColor"/>
+        <attr format="dimension" name="mtIndicatorHeight"/>
+        <attr format="dimension" name="mtUnderlineHeight"/>
+        <attr format="dimension" name="mtTabPaddingLeftRight"/>
+        <attr format="boolean" name="mtSameWeightTabs"/>
+        <attr format="boolean" name="mtTextAllCaps"/>
+        <attr format="boolean" name="mtPaddingMiddle"/>
+        <attr format="color" name="mtTextColorSelected"/>
+        <attr format="color" localization="suggested" name="mtMrlRippleColor"/>
+        <attr format="color" localization="suggested" name="mtMrlRippleHighlightColor"/>
+        <attr format="dimension" localization="suggested" name="mtMrlRippleDiameter"/>
+        <attr format="boolean" localization="suggested" name="mtMrlRippleOverlay"/>
+        <attr format="float" localization="suggested" name="mtMrlRippleAlpha"/>
+        <attr format="integer" localization="suggested" name="mtMrlRippleDuration"/>
+        <attr format="integer" localization="suggested" name="mtMrlRippleFadeDuration"/>
+        <attr format="boolean" localization="suggested" name="mtMrlRippleDelayClick"/>
+        <attr format="boolean" localization="suggested" name="mtMrlRipplePersistent"/>
+        <attr format="boolean" localization="suggested" name="mtMrlRippleInAdapter"/>
+        <attr format="dimension" localization="suggested" name="mtMrlRippleRoundedCorners"/>
+    </declare-styleable><declare-styleable name="MaterialRippleLayout">
+        <attr format="color" localization="suggested" name="mrlRippleColor"/>
+        <attr format="color" localization="suggested" name="mrlRippleHighlightColor"/>
+        <attr format="dimension" localization="suggested" name="mrlRippleDiameter"/>
+        <attr format="boolean" localization="suggested" name="mrlRippleOverlay"/>
+        <attr format="float" localization="suggested" name="mrlRippleAlpha"/>
+        <attr format="integer" localization="suggested" name="mrlRippleDuration"/>
+        <attr format="integer" localization="suggested" name="mrlRippleFadeDuration"/>
+        <attr format="boolean" localization="suggested" name="mrlRippleDelayClick"/>
+        <attr format="boolean" localization="suggested" name="mrlRipplePersistent"/>
+        <attr format="boolean" localization="suggested" name="mrlRippleInAdapter"/>
+        <attr format="dimension" localization="suggested" name="mrlRippleRoundedCorners"/>
+    </declare-styleable></file></source><source path="C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\build\generated\res\rs\release"/><source path="C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\build\generated\res\resValues\release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\src\release\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="MaterialTabs">
+        <attr format="color" name="mtIndicatorColor"/>
+        <attr format="color" name="mtUnderlineColor"/>
+        <attr format="dimension" name="mtIndicatorHeight"/>
+        <attr format="dimension" name="mtUnderlineHeight"/>
+        <attr format="dimension" name="mtTabPaddingLeftRight"/>
+        <attr format="boolean" name="mtSameWeightTabs"/>
+        <attr format="boolean" name="mtTextAllCaps"/>
+        <attr format="boolean" name="mtPaddingMiddle"/>
+        <attr format="color" name="mtTextColorSelected"/>
+        <attr format="color" localization="suggested" name="mtMrlRippleColor"/>
+        <attr format="color" localization="suggested" name="mtMrlRippleHighlightColor"/>
+        <attr format="dimension" localization="suggested" name="mtMrlRippleDiameter"/>
+        <attr format="boolean" localization="suggested" name="mtMrlRippleOverlay"/>
+        <attr format="float" localization="suggested" name="mtMrlRippleAlpha"/>
+        <attr format="integer" localization="suggested" name="mtMrlRippleDuration"/>
+        <attr format="integer" localization="suggested" name="mtMrlRippleFadeDuration"/>
+        <attr format="boolean" localization="suggested" name="mtMrlRippleDelayClick"/>
+        <attr format="boolean" localization="suggested" name="mtMrlRipplePersistent"/>
+        <attr format="boolean" localization="suggested" name="mtMrlRippleInAdapter"/>
+        <attr format="dimension" localization="suggested" name="mtMrlRippleRoundedCorners"/>
+    </declare-styleable><declare-styleable name="MaterialRippleLayout">
+        <attr format="color" localization="suggested" name="mrlRippleColor"/>
+        <attr format="color" localization="suggested" name="mrlRippleHighlightColor"/>
+        <attr format="dimension" localization="suggested" name="mrlRippleDiameter"/>
+        <attr format="boolean" localization="suggested" name="mrlRippleOverlay"/>
+        <attr format="float" localization="suggested" name="mrlRippleAlpha"/>
+        <attr format="integer" localization="suggested" name="mrlRippleDuration"/>
+        <attr format="integer" localization="suggested" name="mrlRippleFadeDuration"/>
+        <attr format="boolean" localization="suggested" name="mrlRippleDelayClick"/>
+        <attr format="boolean" localization="suggested" name="mrlRipplePersistent"/>
+        <attr format="boolean" localization="suggested" name="mrlRippleInAdapter"/>
+        <attr format="dimension" localization="suggested" name="mrlRippleRoundedCorners"/>
+    </declare-styleable></configuration></mergedItems></merger>

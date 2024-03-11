@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CusTint="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="fill_parent"
+    android:background="@color/user_colored_header_back"
+    android:layout_height="58dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <com.solutionsbricks.solbricksframework.helpers.TintImageView
+            CusTint:tintVal="@color/x_header_icons"
+            android:id="@+id/head_drawer_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_drawer"
+            android:layout_alignParentStart="true" />
+
+        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+            android:textAlignment="viewStart"
+            android:gravity="start"
+            android:id="@+id/head_drawer_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Roots Abacus"
+            android:layout_toRightOf="@id/head_drawer_toggle"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            android:textColor="@color/x_header_text"
+            android:layout_toEndOf="@id/head_drawer_toggle" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                    CusTint:tintVal="@color/x_header_icons"
+                    android:id="@+id/refresh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:src="@drawable/ic_refresh" />
+
+                <ProgressBar
+                    android:id="@+id/gen_loader"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:indeterminateTintMode="src_atop"
+                    android:indeterminateTint="@color/x_header_icons"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </FrameLayout>
+
+            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                CusTint:tintVal="@color/x_header_icons"
+                android:id="@+id/search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:src="@drawable/ic_search" />
+
+            <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                CusTint:tintVal="@color/x_header_icons"
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:src="@drawable/ic_add" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        card_view:cardBackgroundColor="@color/x_boxes_container_back"
+        card_view:cardCornerRadius="6dp"
+        card_view:cardPreventCornerOverlap="false">
+
+
+        <LinearLayout
+            android:id="@+id/header_menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Search"
+                android:textAlignment="viewStart"
+                android:textColor="@color/x_boxes_header_text"
+                android:textSize="17sp" />
+
+            <com.marvinlabs.widget.floatinglabel.edittext.FloatingLabelEditText
+                android:id="@+id/search_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:drawablePadding="@dimen/main_marg2"
+                app:flw_inputWidgetTextColor="@color/x_boxes_main_text"
+                app:flw_labelTextColor="@color/x_boxes_sub_title_text" />
+
+            <com.dd.processbutton.iml.ActionProcessButton
+                android:id="@+id/search_btn"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_margin="15dp"
+                android:text="Search"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                custom:pb_colorComplete="@color/green_complete"
+                custom:pb_colorNormal="#ff11668C"
+                custom:pb_colorPressed="#ff1f5875"
+                custom:pb_colorProgress="@color/purple_progress"
+                custom:pb_textComplete="@string/log_btn_success"
+                custom:pb_textProgress="@string/log_btn_loading" />
+
+            <me.gujun.android.taggroup.TagGroup
+                android:id="@+id/search_tags"
+                style="@style/TagGroup.Beauty_Red.Inverse"
+                android:layout_margin="15dp"
+                android:paddingBottom="10dp" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</FrameLayout>

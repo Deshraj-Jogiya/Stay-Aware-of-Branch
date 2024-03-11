@@ -1,0 +1,119 @@
+{
+  "project_info": {
+    "project_number": "836776454823",
+    "firebase_url": "https://rootssg-2cb78.firebaseio.com",
+    "project_id": "rootssg-2cb78",
+    "storage_bucket": "rootssg-2cb78.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836776454823:android:b7818ee7bca1ea67568982",
+        "android_client_info": {
+          "package_name": "com.axcel.sms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836776454823-lkripiobuobbq1napiinp63kpparlcjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjHBxUO0wpN-mergii7RubuEc6RG5FPHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836776454823-lkripiobuobbq1napiinp63kpparlcjr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "836776454823-jd2346ir9b6uq6qskalfe7amulandaag.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.solutionsbricks.Ora"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836776454823:android:f3ad9216c99dc751568982",
+        "android_client_info": {
+          "package_name": "com.schoolmgmtsys.root.ssg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836776454823-lkripiobuobbq1napiinp63kpparlcjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjHBxUO0wpN-mergii7RubuEc6RG5FPHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836776454823-lkripiobuobbq1napiinp63kpparlcjr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "836776454823-jd2346ir9b6uq6qskalfe7amulandaag.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.solutionsbricks.Ora"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836776454823:android:790f2460ed4333f3568982",
+        "android_client_info": {
+          "package_name": "com.schoolmgmtsys.rootssg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836776454823-lkripiobuobbq1napiinp63kpparlcjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjHBxUO0wpN-mergii7RubuEc6RG5FPHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836776454823-lkripiobuobbq1napiinp63kpparlcjr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "836776454823-jd2346ir9b6uq6qskalfe7amulandaag.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.solutionsbricks.Ora"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

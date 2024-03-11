@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tl="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/background_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/x_gen_back" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7d000000" />
+
+    <include layout="@layout/header_loader" />
+
+    <LinearLayout
+        android:id="@+id/full_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:orientation="vertical">
+
+        <com.flyco.tablayout.CommonTabLayout
+            android:id="@+id/dashboard_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingTop="12dp"
+            tl:tl_indicator_color="@color/x_dash_side_button_1_back_normal"
+            tl:tl_textSelectColor="@color/x_dash_side_button_1_back_normal"
+            tl:tl_textUnselectColor="@color/x_dash_top_tabs_icons"
+            tl:tl_underline_color="@color/x_dash_top_tabs_icons"
+            tl:tl_underline_height="1dp" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/dashboard_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</RelativeLayout>

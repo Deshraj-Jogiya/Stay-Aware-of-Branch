@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\kaxad\\AndroidStudioProjects\\SchoolAndroid400\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\kaxad\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\1d34cb78278f158c90c0cb1f1e08c197\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "405,471,532,598",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "466,527,593,660"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kaxad\\AndroidStudioProjects\\SchoolAndroid400\\app\\src\\main\\res\\values-v24\\styles.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "104,266",
+                        "endColumns": "160,149",
+                        "endOffsets": "260,411"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "100,258",
+                        "endColumns": "157,146",
+                        "endOffsets": "253,400"
+                    }
+                }
+            ]
+        }
+    ]
+}

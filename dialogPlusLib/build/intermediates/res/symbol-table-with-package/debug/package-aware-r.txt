@@ -1,0 +1,23 @@
+com.orhanobut.dialogplus
+anim fade_in_center
+anim fade_out_center
+anim slide_in_bottom
+anim slide_in_top
+anim slide_out_bottom
+anim slide_out_top
+color black_overlay
+color card_shadow
+color white
+color white_overlay
+dimen default_center_margin
+id content_container
+id footer_container
+id header_container
+id list
+id outmost_container
+id view_container
+integer animation_default_duration
+layout base_container
+layout dialog_grid
+layout dialog_list
+layout dialog_view

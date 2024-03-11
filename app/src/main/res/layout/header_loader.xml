@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CusTint="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="58dp"
+    android:layout_alignParentTop="true"
+    android:background="@color/x_header_back"
+    android:padding="10dp">
+
+
+    <com.solutionsbricks.solbricksframework.helpers.TintImageView
+        android:id="@+id/head_drawer_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:paddingEnd="5dp"
+        android:paddingRight="5dp"
+        android:src="@drawable/ic_drawer"
+        CusTint:tintVal="@color/x_header_icons" />
+
+    <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+        android:id="@+id/head_drawer_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="start"
+        android:layout_toEndOf="@+id/head_drawer_toggle"
+        android:layout_toLeftOf="@+id/gen_loader"
+        android:layout_toRightOf="@id/head_drawer_toggle"
+        android:layout_toStartOf="@+id/gen_loader"
+        android:gravity="start"
+        android:singleLine="true"
+        android:textAlignment="viewStart"
+        android:textColor="@color/x_header_text"
+        android:textSize="15sp" />
+
+    <ProgressBar
+        android:id="@+id/gen_loader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:indeterminateTint="@color/x_header_icons"
+        android:indeterminateTintMode="src_atop" />
+
+</RelativeLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/x_boxes_cards_margin_bottom"
+        android:layout_marginLeft="@dimen/x_boxes_cards_margin_left_right"
+        android:layout_marginRight="@dimen/x_boxes_cards_margin_left_right"
+        android:layout_marginTop="@dimen/x_boxes_cards_margin_top"
+        card_view:cardBackgroundColor="@color/x_boxes_container_back"
+        card_view:cardCornerRadius="@dimen/x_boxes_cards_corner_radius"
+        card_view:cardElevation="3dp"
+        card_view:cardPreventCornerOverlap="false"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:id="@+id/holder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                android:id="@+id/header_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:paddingEnd="@dimen/header_top"
+                android:paddingLeft="@dimen/header_left"
+                android:paddingRight="@dimen/header_top"
+                android:paddingStart="@dimen/header_left"
+                android:paddingTop="@dimen/header_top"
+                android:text="NA"
+                android:textAlignment="viewStart"
+                android:textColor="@color/x_boxes_header_text"
+                android:textSize="@dimen/x_boxes_title_text_size" />
+
+
+            <!-- Footer Container Layout -->
+            <LinearLayout
+                android:id="@+id/footer_con"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/header_top"
+                android:paddingTop="@dimen/header_top">
+
+                <!-- Footer Icon Data Layout -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/x_boxes_icon_size"
+                            android:layout_height="@dimen/x_boxes_icon_size"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginRight="15dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/icon_pages_start_time" />
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                                android:id="@+id/start_time_data"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:text="NA"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/x_boxes_main_text"
+                                android:textSize="@dimen/x_boxes_icon_title_size" />
+
+                            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                                android:id="@+id/startTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:text="START TIME"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/x_boxes_sub_title_text"
+                                android:textSize="@dimen/x_boxes_icon_sub_title_size" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!-- END Footer Icon Data Layout -->
+
+                <!-- Footer Icon Data Layout -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="@dimen/x_boxes_icon_size"
+                            android:layout_height="@dimen/x_boxes_icon_size"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginRight="15dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/icon_pages_end_time" />
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical">
+
+                            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                                android:id="@+id/end_time_data"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:text="NA"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/x_boxes_main_text"
+                                android:textSize="@dimen/x_boxes_icon_title_size" />
+
+                            <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+                                android:id="@+id/endTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:text="END TIME"
+                                android:textAlignment="viewStart"
+                                android:textColor="@color/x_boxes_sub_title_text"
+                                android:textSize="@dimen/x_boxes_icon_sub_title_size" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!-- END Footer Icon Data Layout -->
+            </LinearLayout>
+            <!-- END Footer Container Layout -->
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

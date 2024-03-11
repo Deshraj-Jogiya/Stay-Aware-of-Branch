@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/background_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/x_gen_back" />
+
+    <include layout="@layout/header_loader" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layoutDirection="ltr">
+
+
+        <FrameLayout
+            android:id="@+id/full_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/control_holder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="20dp">
+
+                <LinearLayout
+                    android:id="@+id/date_input_con"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                        android:id="@+id/date_input_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:gravity="start"
+                        android:lineSpacingMultiplier="0.9"
+                        android:text="Date"
+                        android:textColor="@color/x_hint_text_color"
+                        android:textSize="14sp" />
+
+
+                    <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                        android:id="@+id/date_input"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:text="Click to pick date"
+                        android:textColor="@color/x_dash_main_text"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+                <com.dd.processbutton.iml.ActionProcessButton xmlns:custom="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/process_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_margin="@dimen/log_inputs_marg_edges"
+                    android:text="@string/save"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp"
+                    custom:pb_colorComplete="@color/green_complete"
+                    custom:pb_colorNormal="@color/blue_normal"
+                    custom:pb_colorPressed="@color/blue_pressed"
+                    custom:pb_colorProgress="@color/purple_progress"
+                    custom:pb_textComplete="@string/log_btn_success"
+                    custom:pb_textProgress="@string/log_btn_loading" />
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+</RelativeLayout>
+
+

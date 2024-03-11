@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\kaxad\\AndroidStudioProjects\\SchoolAndroid400\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\kaxad\\.gradle\\caches\\transforms-1\\files-1.1\\BottomDialogs-1.2.1.aar\\651662411e1ed4f63e8b6f5cd8ab4e68\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,168",
+                        "endLines": "4,7",
+                        "endColumns": "12,12",
+                        "endOffsets": "163,286"
+                    }
+                }
+            ]
+        }
+    ]
+}

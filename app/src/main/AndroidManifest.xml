@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.schoolmgmtsys.root.ssg"
+    android:versionCode="51"
+    android:versionName="4.11">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.schoolmgmtsys.root.ssg.utils.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup">
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.ViewImagePage"
+            android:label="@string/app_name">
+
+        </activity>
+
+
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.PolicyScreen"
+            android:label="@string/app_name">
+
+        </activity>
+
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.HomeworkAddNew"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.AssignmentAddNew"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.HomeworkView"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.HomeworkPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.PaymentInvoiceView"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.EventsViewPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.NewsViewPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.StaticViewPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.ExamDetails"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.CalenderItemPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.DuePaymentsPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.SearchUserView"
+            android:label="@string/app_name">
+
+        </activity>
+
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.StaticPagesPage"
+            android:label="@string/app_name">
+
+        </activity>
+
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.SplashPage"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.messages.MessagesItemsActivity"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.messages.MessagesDialogsActivity"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.AttendancePage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.StaffAttendancePage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.MediaCenterPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.StaffAttendanceStatPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.AttendanceStatPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.ExamMarkPage"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.TransportPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.HostelPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.StudentAttendancePage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.ClassesSchPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.StudyMaterialPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.NewsBoardPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.LibraryPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.TeachersPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.CalenderPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.StudentsPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.ParentsPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.GradesPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.SectionsPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.AssignmentsPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.ExamsPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.ControlActivity"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.DashboardPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.EventsPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.ClassesPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.OnlineExamsPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.SubjectsPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.PaymentsPage"
+            android:label="@string/app_name">
+
+        </activity>
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.LoginPage"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name">
+
+        </activity>
+
+        <activity
+            android:name="com.schoolmgmtsys.root.ssg.app.MediaViewerPage"
+            android:label="@string/app_name" />
+
+        <service android:name="com.schoolmgmtsys.root.ssg.Notifications.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.schoolmgmtsys.root.ssg.Notifications.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="c3b0d95d88b1d0c17936af385be01c26f15121ff" />
+
+    </application>
+
+</manifest>

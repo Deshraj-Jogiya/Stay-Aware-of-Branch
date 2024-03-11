@@ -1,0 +1,2 @@
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:26
+-keep class com.schoolmgmtsys.root.ssg.utils.App { <init>(...); }

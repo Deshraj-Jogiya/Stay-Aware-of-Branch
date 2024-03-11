@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--- =========================== Hard Coded Defined ======================= -->
+    <color name="white">#ffffff</color>
+    <color name="transparent_black">#2c000000</color>
+    <color name="gray_light">#e8e8e8</color>
+    <color name="gray_transparent">#a6efefef</color>
+    <color name="gray_dark_transparent">#ae858585</color>
+    <color name="green">#38be55</color>
+    <color name="green_dark">#2da346</color>
+    <color name="red">#e94f4f</color>
+    <color name="trans_black">#39000000</color>
+
+    <color name="messages_empty_error">#8e8e8e</color>
+    <color name="user_colored_header_back">#047dac</color>
+    <color name="boxes_footer_div">#5e878787</color>
+
+    <color name="trans_white">#1dffffff</color>
+
+    <!--- =========================== Old defined ======================= -->
+
+    <!--=== Login ==== -->
+    <color name="x_login_school_name">#ffffff</color>
+    <color name="x_login_back">#047dac</color>
+
+    <!--=== Header ==== -->
+    <color name="x_header_icons">#ffffff</color>
+    <color name="x_header_back">#00000000</color>
+    <color name="x_header_text">#ffffff</color>
+
+    <!--=== Dashboard ==== -->
+    <color name="x_dash_header_text">#ffffff</color>
+    <color name="x_dash_main_text">#ffffff</color>
+    <color name="x_dash_sub_text">#bcbcbc</color>
+    <color name="x_dash_icons">#ffffff</color>
+
+    <!--=== General - Out Cards ==== -->
+    <color name="x_gen_back">#ededed</color>
+    <color name="x_gen_icons">#ffffff</color>
+    <color name="x_gen_main_text">#ffffff</color>
+    <color name="x_gen_sub_title_text">#c4c4c4</color>
+
+    <!--- ============================== END Old defined ====================== -->
+
+    <!--================================ New defined ========================== -->
+
+    <!--==== Drawer ===== -->
+    <color name="x_drawer_header_color">#282E3A</color>
+    <color name="x_drawer_title_text">#ffffff</color>
+    <color name="x_drawer_sub_title_text">#d2d2d2</color>
+    <color name="x_drawer_list_item_text">#333333</color>
+    <color name="x_drawer_icon_normal">#E9484E</color>
+    <color name="x_drawer_icon_pressed">#a43034</color>
+
+    <!--=== Dashboard ==== -->
+    <color name="x_dash_side_button_1_back_normal">#E94E43</color>
+    <color name="x_dash_side_button_1_back_pressed">#b93b32</color>
+    <color name="x_dash_side_button_2_back_normal">#4782AD</color>
+    <color name="x_dash_side_button_2_back_pressed">#39688b</color>
+    <color name="x_dash_side_button_text">#ffffff</color>
+    <color name="x_dash_top_tabs_icons">#62cecece</color>
+
+    <!--=== Calendar ==== -->
+    <color name="x_calendar_header_back">#ffffff</color>
+    <color name="x_calendar_header_text">#71000000</color>
+    <color name="x_calendar_no_events_back">#71000000</color>
+    <color name="x_calendar_have_events_back">#f96060</color>
+    <color name="x_calendar_events_text">#ffffff</color>
+    <color name="x_calendar_events_icon">#ffffff</color>
+    <color name="x_calendar_more_back_normal">#d64e4e</color>
+    <color name="x_calendar_more_back_pressed">#ac3c3c</color>
+
+    <!--=== General - Inside Cards ==== -->
+    <color name="x_boxes_header_back">#f1f1f1</color>
+    <color name="x_boxes_container_back">#ffffff</color>
+    <color name="x_boxes_header_text">#434343</color>
+    <color name="x_boxes_main_text">#434343</color>
+    <color name="x_boxes_sub_title_text">#787878</color>
+    <color name="x_boxes_above_header_text">#d64e4e</color>
+
+    <color name="x_boxes_menu_icon">#ffffff</color>
+    <color name="x_boxes_menu_icon_background_normal">#4782AD</color>
+    <color name="x_boxes_menu_icon_background_pressed">#366587</color>
+
+    <color name="x_boxes_menu_text">#ffffff</color>
+    <color name="x_boxes_menu_text_background_normal">#E9484E</color>
+    <color name="x_boxes_menu_text_background_pressed">#be353a</color>
+
+    <!-- ========= Bottom Saving Button ===================== -->
+    <color name="x_bottom_process_button_back_pressed">#2d2d2d</color>
+    <color name="x_bottom_process_button_back_normal">#353535</color>
+    <color name="x_bottom_process_button_text">#ffffff</color>
+
+    <!--=== Other ==== -->
+    <color name="x_divider_color">#64d7d7d7</color>
+    <color name="x_hint_text_color">#d6d6d6</color>
+
+    <!--============================== END New defined ========================== -->
+
+
+</resources>

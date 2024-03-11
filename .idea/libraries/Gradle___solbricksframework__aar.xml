@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :solbricksframework:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/solbricksframework.aar/db41dff7e7619b073659e0059986332d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/solbricksframework.aar/db41dff7e7619b073659e0059986332d/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/solbricksframework.aar/db41dff7e7619b073659e0059986332d/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

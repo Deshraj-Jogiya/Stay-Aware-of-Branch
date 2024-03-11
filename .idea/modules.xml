@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SchoolAndroid400.iml" filepath="$PROJECT_DIR$/SchoolAndroid400.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FilePicker/SchoolAndroid400.FilePicker.iml" filepath="$PROJECT_DIR$/.idea/modules/FilePicker/SchoolAndroid400.FilePicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlycoTabLayoutLib/SchoolAndroid400.FlycoTabLayoutLib.iml" filepath="$PROJECT_DIR$/.idea/modules/FlycoTabLayoutLib/SchoolAndroid400.FlycoTabLayoutLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImageViewer/SchoolAndroid400.ImageViewer.iml" filepath="$PROJECT_DIR$/.idea/modules/ImageViewer/SchoolAndroid400.ImageViewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MaterialTabs/SchoolAndroid400.MaterialTabs.iml" filepath="$PROJECT_DIR$/.idea/modules/MaterialTabs/SchoolAndroid400.MaterialTabs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SlidingMenu/SchoolAndroid400.SlidingMenu.iml" filepath="$PROJECT_DIR$/.idea/modules/SlidingMenu/SchoolAndroid400.SlidingMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SchoolAndroid400.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SchoolAndroid400.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/calenderView/SchoolAndroid400.calenderView.iml" filepath="$PROJECT_DIR$/.idea/modules/calenderView/SchoolAndroid400.calenderView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/chatkit/SchoolAndroid400.chatkit.iml" filepath="$PROJECT_DIR$/.idea/modules/chatkit/SchoolAndroid400.chatkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/countTextView/SchoolAndroid400.countTextView.iml" filepath="$PROJECT_DIR$/.idea/modules/countTextView/SchoolAndroid400.countTextView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/dialogPlusLib/SchoolAndroid400.dialogPlusLib.iml" filepath="$PROJECT_DIR$/.idea/modules/dialogPlusLib/SchoolAndroid400.dialogPlusLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/expandablerecyclerview/SchoolAndroid400.expandablerecyclerview.iml" filepath="$PROJECT_DIR$/.idea/modules/expandablerecyclerview/SchoolAndroid400.expandablerecyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/floatInputLib/SchoolAndroid400.floatInputLib.iml" filepath="$PROJECT_DIR$/.idea/modules/floatInputLib/SchoolAndroid400.floatInputLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/solbrickscal/SchoolAndroid400.solbrickscal.iml" filepath="$PROJECT_DIR$/.idea/modules/solbrickscal/SchoolAndroid400.solbrickscal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sweetAlertDialog/SchoolAndroid400.sweetAlertDialog.iml" filepath="$PROJECT_DIR$/.idea/modules/sweetAlertDialog/SchoolAndroid400.sweetAlertDialog.iml" />
+    </modules>
+  </component>
+</project>

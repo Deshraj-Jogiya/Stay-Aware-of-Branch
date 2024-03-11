@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\kaxad\\AndroidStudioProjects\\SchoolAndroid400\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-zh\\values-zh.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\kaxad\\AndroidStudioProjects\\SchoolAndroid400\\FilePicker\\build\\intermediates\\packaged_res\\release\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,110,178,225,270,318,364,409,453,498,540,582,623,672",
+                        "endColumns": "54,67,46,44,47,45,44,43,44,41,41,40,48,42",
+                        "endOffsets": "105,173,220,265,313,359,404,448,493,535,577,618,667,710"
+                    },
+                    "to": {
+                        "startLines": "3,4,14,15,16,17,18,19,20,21,22,23,24,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "96,151,722,769,814,862,908,953,997,1042,1084,1126,1167,1216",
+                        "endColumns": "54,67,46,44,47,45,44,43,44,41,41,40,48,42",
+                        "endOffsets": "146,214,764,809,857,903,948,992,1037,1079,1121,1162,1211,1254"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kaxad\\.gradle\\caches\\transforms-1\\files-1.1\\library-1.4.aar\\b6337c0cdfd58fbec95d2b1c0c203e13\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "193",
+                        "endColumns": "40",
+                        "endOffsets": "229"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "40",
+                        "endOffsets": "91"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kaxad\\.gradle\\caches\\transforms-1\\files-1.1\\permission-2.0.0-rc12.aar\\3c2bce8d1711318706366ff324247b29\\res\\values-zh\\values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,111,165,222,280,339,392,450,501",
+                        "endColumns": "55,53,56,57,58,52,57,50,56",
+                        "endOffsets": "106,160,217,275,334,387,445,496,553"
+                    },
+                    "to": {
+                        "startLines": "5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "219,275,329,386,444,503,556,614,665",
+                        "endColumns": "55,53,56,57,58,52,57,50,56",
+                        "endOffsets": "270,324,381,439,498,551,609,660,717"
+                    }
+                }
+            ]
+        }
+    ]
+}

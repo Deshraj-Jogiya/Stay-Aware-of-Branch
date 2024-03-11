@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CusTint="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/x_boxes_cards_margin_bottom"
+        android:layout_marginLeft="@dimen/x_boxes_cards_margin_left_right"
+        android:layout_marginRight="@dimen/x_boxes_cards_margin_left_right"
+        android:layout_marginTop="@dimen/x_boxes_cards_margin_top"
+        card_view:cardBackgroundColor="@color/x_boxes_container_back"
+        card_view:cardCornerRadius="@dimen/x_boxes_cards_corner_radius"
+        card_view:cardElevation="3dp"
+        card_view:cardPreventCornerOverlap="false"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:id="@+id/holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:paddingTop="@dimen/menu_icons_padd1">
+
+            <RelativeLayout
+                android:id="@+id/header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_toLeftOf="@+id/menu"
+                android:layout_toStartOf="@+id/menu">
+
+                <com.solutionsbricks.solbricksframework.helpers.CustomImageView
+                    android:id="@+id/header_student_img"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_margin="@dimen/header_left"
+                    android:paddingTop="@dimen/header_top" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/header_student_img"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toEndOf="@id/header_student_img"
+                    android:layout_toRightOf="@id/header_student_img"
+                    android:orientation="vertical">
+
+                    <com.schoolmgmtsys.root.ssg.fonts.BoldStyledTextView
+                        android:id="@+id/student"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Student"
+                        android:textAlignment="viewStart"
+                        android:gravity="start"
+                        android:textColor="@color/x_boxes_header_text"
+                        android:textSize="@dimen/header_content" />
+
+                    <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                        android:id="@+id/header_student_data"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NA"
+                        android:textAlignment="viewStart"
+                        android:gravity="start"
+                        android:textColor="@color/x_boxes_sub_title_text"
+                        android:textSize="@dimen/header_content" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical"
+                android:paddingEnd="@dimen/menu_right"
+                android:paddingRight="@dimen/menu_right"
+                android:paddingTop="@dimen/menu_top">
+
+                <RelativeLayout
+                    android:id="@+id/menu_download"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/boxes_menu_icon_btn"
+                    android:padding="@dimen/menu_img">
+
+                    <com.solutionsbricks.solbricksframework.helpers.TintImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:src="@drawable/download"
+                        CusTint:tintVal="@color/x_boxes_menu_icon" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/header"
+                android:orientation="vertical"
+                android:paddingLeft="5dp"
+                android:paddingStart="5dp">
+
+
+                <LinearLayout
+                    android:id="@+id/footer_class"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:paddingBottom="10dp"
+                    android:paddingEnd="@dimen/header_top"
+                    android:paddingRight="@dimen/header_top"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="@dimen/footer_left"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/x_boxes_icon_size"
+                        android:layout_height="@dimen/x_boxes_icon_size">
+
+                        <ImageView
+                            android:id="@+id/footer_class_icn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/icon_pages_class" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:orientation="vertical">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.BoldStyledTextView
+                            android:id="@+id/_class"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Class"
+                            android:textColor="@color/x_boxes_header_text"
+                            android:textSize="@dimen/footer_title" />
+
+                        <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                            android:id="@+id/footer_class_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="NA"
+                            android:textColor="@color/x_boxes_sub_title_text"
+                            android:textSize="@dimen/footer_data" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/footer_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:paddingBottom="10dp"
+                    android:layout_marginStart="@dimen/footer_left"
+                    android:orientation="horizontal"
+                    android:paddingEnd="@dimen/header_top"
+                    android:paddingRight="@dimen/header_top">
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/x_boxes_icon_size"
+                        android:layout_height="@dimen/x_boxes_icon_size">
+
+                        <ImageView
+                            android:id="@+id/footer_date_icn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/icon_pages_date" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:orientation="vertical">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.BoldStyledTextView
+                            android:id="@+id/timeApplied"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Time Applied"
+                            android:textColor="@color/x_boxes_header_text"
+                            android:textSize="@dimen/footer_title" />
+
+                        <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                            android:id="@+id/footer_date_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="NA"
+                            android:textColor="@color/x_boxes_sub_title_text"
+                            android:textSize="@dimen/footer_data" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/footer_notes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="@dimen/footer_left"
+                    android:orientation="horizontal"
+                    android:paddingBottom="15dp"
+                    android:paddingEnd="@dimen/header_top"
+                    android:paddingRight="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="@dimen/x_boxes_icon_size"
+                        android:layout_height="@dimen/x_boxes_icon_size">
+
+                        <ImageView
+                            android:id="@+id/footer_notes_icn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:src="@drawable/icon_pages_notes" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginStart="12dp"
+                        android:orientation="vertical">
+
+                        <com.schoolmgmtsys.root.ssg.fonts.BoldStyledTextView
+                            android:id="@+id/Notes"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Notes"
+                            android:textColor="@color/x_boxes_header_text"
+                            android:textSize="@dimen/footer_title" />
+
+                        <com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView
+                            android:id="@+id/footer_notes_data"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="NA"
+                            android:textColor="@color/x_boxes_sub_title_text"
+                            android:textSize="@dimen/footer_data" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

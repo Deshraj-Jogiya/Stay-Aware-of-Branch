@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\AndroidManifest.xml:1:1-45
+INJECTED from C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\AndroidManifest.xml:1:1-45
+INJECTED from C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\AndroidManifest.xml:1:1-45
+	package
+		ADDED from C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\AndroidManifest.xml:1:11-42
+		INJECTED from C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\AndroidManifest.xml
+		INJECTED from C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\AndroidManifest.xml:1:1-45
+uses-sdk
+INJECTED from C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\AndroidManifest.xml
+INJECTED from C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\AndroidManifest.xml
+INJECTED from C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\AndroidManifest.xml
+INJECTED from C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\AndroidManifest.xml
+		ADDED from C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\AndroidManifest.xml
+		INJECTED from C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\AndroidManifest.xml
+		ADDED from C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\AndroidManifest.xml
+		INJECTED from C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\MaterialTabs\AndroidManifest.xml

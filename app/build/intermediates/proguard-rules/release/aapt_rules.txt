@@ -1,0 +1,686 @@
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:330
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:284
+-keep class com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:298
+-keep class com.google.android.gms.measurement.AppMeasurementJobService { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:279
+-keep class com.google.android.gms.measurement.AppMeasurementReceiver { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:294
+-keep class com.google.android.gms.measurement.AppMeasurementService { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:268
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:304
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:316
+-keep class com.google.firebase.iid.FirebaseInstanceIdService { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:261
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:324
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:253
+-keep class com.nbsp.materialfilepicker.ui.FilePickerActivity { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:243
+-keep class com.schoolmgmtsys.root.ssg.Notifications.MyFirebaseInstanceIDService { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:238
+-keep class com.schoolmgmtsys.root.ssg.Notifications.MyFirebaseMessagingService { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:51
+-keep class com.schoolmgmtsys.root.ssg.app.AssignmentAddNew { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:193
+-keep class com.schoolmgmtsys.root.ssg.app.AssignmentsPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:116
+-keep class com.schoolmgmtsys.root.ssg.app.AttendancePage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:132
+-keep class com.schoolmgmtsys.root.ssg.app.AttendanceStatPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:83
+-keep class com.schoolmgmtsys.root.ssg.app.CalenderItemPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:173
+-keep class com.schoolmgmtsys.root.ssg.app.CalenderPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:213
+-keep class com.schoolmgmtsys.root.ssg.app.ClassesPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:153
+-keep class com.schoolmgmtsys.root.ssg.app.ClassesSchPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:201
+-keep class com.schoolmgmtsys.root.ssg.app.ControlActivity { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:205
+-keep class com.schoolmgmtsys.root.ssg.app.DashboardPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:87
+-keep class com.schoolmgmtsys.root.ssg.app.DuePaymentsPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:209
+-keep class com.schoolmgmtsys.root.ssg.app.EventsPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:67
+-keep class com.schoolmgmtsys.root.ssg.app.EventsViewPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:79
+-keep class com.schoolmgmtsys.root.ssg.app.ExamDetails { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:136
+-keep class com.schoolmgmtsys.root.ssg.app.ExamMarkPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:197
+-keep class com.schoolmgmtsys.root.ssg.app.ExamsPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:185
+-keep class com.schoolmgmtsys.root.ssg.app.GradesPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:47
+-keep class com.schoolmgmtsys.root.ssg.app.HomeworkAddNew { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:59
+-keep class com.schoolmgmtsys.root.ssg.app.HomeworkPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:55
+-keep class com.schoolmgmtsys.root.ssg.app.HomeworkView { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:145
+-keep class com.schoolmgmtsys.root.ssg.app.HostelPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:165
+-keep class com.schoolmgmtsys.root.ssg.app.LibraryPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:229
+-keep class com.schoolmgmtsys.root.ssg.app.LoginPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:124
+-keep class com.schoolmgmtsys.root.ssg.app.MediaCenterPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:234
+-keep class com.schoolmgmtsys.root.ssg.app.MediaViewerPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:161
+-keep class com.schoolmgmtsys.root.ssg.app.NewsBoardPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:71
+-keep class com.schoolmgmtsys.root.ssg.app.NewsViewPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:217
+-keep class com.schoolmgmtsys.root.ssg.app.OnlineExamsPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:181
+-keep class com.schoolmgmtsys.root.ssg.app.ParentsPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:63
+-keep class com.schoolmgmtsys.root.ssg.app.PaymentInvoiceView { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:225
+-keep class com.schoolmgmtsys.root.ssg.app.PaymentsPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:43
+-keep class com.schoolmgmtsys.root.ssg.app.PolicyScreen { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:91
+-keep class com.schoolmgmtsys.root.ssg.app.SearchUserView { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:189
+-keep class com.schoolmgmtsys.root.ssg.app.SectionsPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:99
+-keep class com.schoolmgmtsys.root.ssg.app.SplashPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:120
+-keep class com.schoolmgmtsys.root.ssg.app.StaffAttendancePage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:128
+-keep class com.schoolmgmtsys.root.ssg.app.StaffAttendanceStatPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:95
+-keep class com.schoolmgmtsys.root.ssg.app.StaticPagesPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:75
+-keep class com.schoolmgmtsys.root.ssg.app.StaticViewPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:149
+-keep class com.schoolmgmtsys.root.ssg.app.StudentAttendancePage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:177
+-keep class com.schoolmgmtsys.root.ssg.app.StudentsPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:157
+-keep class com.schoolmgmtsys.root.ssg.app.StudyMaterialPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:221
+-keep class com.schoolmgmtsys.root.ssg.app.SubjectsPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:169
+-keep class com.schoolmgmtsys.root.ssg.app.TeachersPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:141
+-keep class com.schoolmgmtsys.root.ssg.app.TransportPage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:39
+-keep class com.schoolmgmtsys.root.ssg.app.ViewImagePage { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:112
+-keep class com.schoolmgmtsys.root.ssg.messages.MessagesDialogsActivity { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:108
+-keep class com.schoolmgmtsys.root.ssg.messages.MessagesItemsActivity { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:26
+-keep class com.schoolmgmtsys.root.ssg.utils.App { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:346
+-keep class com.yanzhenjie.permission.FileProvider { <init>(...); }
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\build\intermediates\merged_manifests\release\processReleaseManifest\merged\AndroidManifest.xml:339
+-keep class com.yanzhenjie.permission.PermissionActivity { <init>(...); }
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c9b3865b78cba6f625f442b284fa1879\res\layout\design_bottom_navigation_item.xml:27
+-keep class android.support.design.internal.BaselineLayout { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c9b3865b78cba6f625f442b284fa1879\res\layout\design_navigation_item.xml:17
+-keep class android.support.design.internal.NavigationMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c9b3865b78cba6f625f442b284fa1879\res\layout\design_navigation_menu.xml:17
+-keep class android.support.design.internal.NavigationMenuView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\FilePicker\build\intermediates\packaged_res\release\layout\activity_file_picker.xml:9
+-keep class android.support.design.widget.AppBarLayout { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c9b3865b78cba6f625f442b284fa1879\res\layout\design_text_input_password_icon.xml:18
+-keep class android.support.design.widget.CheckableImageButton { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c9b3865b78cba6f625f442b284fa1879\res\layout\design_bottom_sheet_dialog.xml:26
+-keep class android.support.design.widget.CoordinatorLayout { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c9b3865b78cba6f625f442b284fa1879\res\layout\mtrl_layout_snackbar.xml:18
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c9b3865b78cba6f625f442b284fa1879\res\layout\design_layout_snackbar.xml:18
+-keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c9b3865b78cba6f625f442b284fa1879\res\layout\mtrl_layout_snackbar_include.xml:18
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\c9b3865b78cba6f625f442b284fa1879\res\layout\design_layout_snackbar_include.xml:18
+-keep class android.support.design.widget.SnackbarContentLayout { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_media.xml:117
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_dashboard.xml:39
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\layout_media_fragment.xml:37
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\classes_sch.xml:44
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_alert_dialog_material.xml:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\chatkit\build\intermediates\packaged_res\release\layout\view_message_input.xml:13
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_select_dialog_material.xml:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_action_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_expanded_menu_layout.xml:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_popup_menu_item_layout.xml:17
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_list_menu_item_layout.xml:17
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_cascading_menu_item_layout.xml:20
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_screen_toolbar.xml:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_screen_toolbar.xml:43
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_action_mode_bar.xml:19
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_screen_toolbar.xml:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_action_menu_layout.xml:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_activity_chooser_view.xml:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_alert_dialog_material.xml:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\lovely-dialog-1.0.7.aar\e86e34082ff1ef119f613c7a6c0cf529\res\layout\item_simple_text_multichoice.xml:2
+-keep class android.support.v7.widget.AppCompatCheckedTextView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\dashborad_poll_vote_item.xml:12
+-keep class android.support.v7.widget.AppCompatRadioButton { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_alert_dialog_button_bar_material.xml:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_users_search_view.xml:26
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_transport_list_item.xml:7
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_teachers_list_item.xml:8
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_teachers_approve_item.xml:7
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_subjects_list_item.xml:7
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students_list_item.xml:8
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students_attend_item.xml:6
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students_approve_item.xml:6
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_student_attendance_item.xml:8
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_static_view.xml:22
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_static_list_item.xml:8
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_staff_attendance_stat_list_item.xml:7
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_sections_parent.xml:7
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_sections_child.xml:7
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_search_view.xml:8
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_search_user_result_item.xml:7
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_payment_invoice_view.xml:224
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_pay_list_item.xml:8
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents_list_item.xml:7
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents_attend_item.xml:7
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents_approve_item.xml:6
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_online_exams_list_item.xml:8
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_online_exam_marks_item.xml:6
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_news_view.xml:84
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_news_list_item.xml:8
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_material_list_item.xml:8
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_marksheet_list_item.xml:7
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_marksheet_detail_list.xml:7
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_library_list_item.xml:9
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_hostel_list_item.xml:7
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_homework_view.xml:159
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_homework_list_item.xml:8
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_grades_list_item.xml:7
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exams_list_item.xml:8
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exam_mark_list_item.xml:9
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_events_view.xml:85
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_events_list_item.xml:7
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_dash_lead.xml:7
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_classes_sch_adap_item.xml:7
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_classes_list_item.xml:8
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_calender_item.xml:7
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_attendance_stat_list_item.xml:8
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_assign_list_item.xml:8
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_assign_answers_item.xml:8
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\layout_media_fragment_item.xml:2
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\calendar_list_item.xml:9
+-keep class android.support.v7.widget.CardView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_screen_content_include.xml:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_alert_dialog_title_material.xml:45
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_screen_simple_overlay_action_mode.xml:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_screen_simple.xml:17
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_dialog_title_material.xml:22
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_dash_lead.xml:14
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_search_view.xml:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\FilePicker\build\intermediates\packaged_res\release\layout\activity_file_picker.xml:15
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_screen_toolbar.xml:36
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_screen_simple.xml:25
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_alert_dialog_title_material.xml:56
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_alert_dialog_material.xml:52
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7789c632032312104d4c2ef9f3929dea\res\layout\abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\sweetAlertDialog\build\intermediates\packaged_res\release\layout\alert_dialog.xml:76
+-keep class cn.pedant.SweetAlert.SuccessTickView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\dashborad_poll_results_item.xml:55
+-keep class com.daasuu.cat.CountAnimationTextView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_users_search_view.xml:70
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_staff_attendance_select.xml:72
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_search_view.xml:46
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_login.xml:97
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_homework_add_new.xml:166
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exam_mark_select.xml:64
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_classes_sch_choose.xml:45
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_attendance_select.xml:112
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_assign_add_new.xml:117
+-keep class com.dd.processbutton.iml.ActionProcessButton { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_dashboard.xml:27
+-keep class com.flyco.tablayout.CommonTabLayout { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\FlycoTabLayoutLib\build\intermediates\packaged_res\release\layout\layout_tab_top.xml:29
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\FlycoTabLayoutLib\build\intermediates\packaged_res\release\layout\layout_tab_segment.xml:24
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\FlycoTabLayoutLib\build\intermediates\packaged_res\release\layout\layout_tab_right.xml:30
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\FlycoTabLayoutLib\build\intermediates\packaged_res\release\layout\layout_tab_left.xml:29
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\FlycoTabLayoutLib\build\intermediates\packaged_res\release\layout\layout_tab_bottom.xml:30
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\FlycoTabLayoutLib\build\intermediates\packaged_res\release\layout\layout_tab.xml:17
+-keep class com.flyco.tablayout.widget.MsgView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\.gradle\caches\transforms-1\files-1.1\filepicker-1.1.1.aar\4c526bcf5e59998f5e484da47caea251\res\layout\dialog_file_list_item.xml:48
+-keep class com.github.angads25.filepicker.widget.MaterialCheckbox { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\chatkit\build\intermediates\packaged_res\release\layout\item_outcoming_text_message.xml:11
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\chatkit\build\intermediates\packaged_res\release\layout\item_incoming_text_message.xml:19
+-keep class com.google.android.flexbox.FlexboxLayout { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\SlidingMenu\build\intermediates\packaged_res\release\layout\slidingmenumain.xml:2
+-keep class com.jeremyfeinstein.slidingmenu.lib.SlidingMenu { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\dashborad_poll_results_item.xml:81
+-keep class com.liulishuo.magicprogresswidget.MagicProgressBar { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_users_search_view.xml:61
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_search_view.xml:37
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_login.xml:61
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_homework_add_new.xml:32
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exam_mark_list_item.xml:133
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_assign_add_new.xml:32
+-keep class com.marvinlabs.widget.floatinglabel.edittext.FloatingLabelEditText { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_homework_add_new.xml:193
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exam_mark_select.xml:25
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_classes_sch_choose.xml:18
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_attendance_select.xml:28
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_assign_add_new.xml:145
+-keep class com.marvinlabs.widget.floatinglabel.itempicker.FloatingLabelItemPicker { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\FilePicker\build\intermediates\packaged_res\release\layout\fragment_directory.xml:8
+-keep class com.nbsp.materialfilepicker.widget.EmptyRecyclerView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\classes_sch.xml:24
+-keep class com.ogaclejapan.smarttablayout.SmartTabLayout { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\sweetAlertDialog\build\intermediates\packaged_res\release\layout\alert_dialog.xml:112
+-keep class com.pnikosis.materialishprogress.ProgressWheel { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\layout_media_fragment_item.xml:23
+-keep class com.schoolmgmtsys.root.ssg.app.MediaImageView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_teachers_list_item.xml:51
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_teachers_approve_item.xml:45
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students_list_item.xml:58
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students_attend_item.xml:99
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students_approve_item.xml:52
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_sections_child.xml:38
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_search_user_result_item.xml:59
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_payment_invoice_view.xml:243
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents_list_item.xml:50
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents_approve_item.xml:44
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_online_exam_marks_item.xml:137
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_news_view.xml:101
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_marksheet_detail_list.xml:138
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_invoice_product_row.xml:12
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_invoice_payment_row.xml:23
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_homework_view.xml:248
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_homework_list_item.xml:62
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_grades_list_item.xml:89
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exam_details_sch_item.xml:12
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exam_details.xml:151
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_calender_item.xml:32
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_assign_answers_item.xml:60
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\layout_media_fragment_item.xml:39
+-keep class com.schoolmgmtsys.root.ssg.fonts.BoldStyledTextView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_student_attendance_item.xml:144
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_online_exam_marks_item.xml:67
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_calender_item.xml:61
+-keep class com.schoolmgmtsys.root.ssg.fonts.LightStyledTextView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\simple_list_item.xml:15
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_users_search_view.xml:110
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_transport_list_item.xml:42
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_transport.xml:40
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_teachers_list_item.xml:148
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_teachers_approve_item.xml:111
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_teachers.xml:40
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_subjects_list_item.xml:28
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_subjects.xml:39
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students_list_item.xml:206
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students_attend.xml:29
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students_approve_item.xml:133
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students.xml:41
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_student_attendance_item.xml:43
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_student_attendance.xml:41
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_static_pages.xml:39
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_static_list_item.xml:53
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_staff_attendance_stat_list_item.xml:47
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_staff_attendance_stat.xml:42
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_splash.xml:42
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_sections.xml:41
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_search_user_result_item.xml:131
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_payment_invoice_view.xml:51
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_pay_list_item.xml:39
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_pay.xml:39
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents_list_item.xml:118
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents_attend_item.xml:42
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents_attend.xml:22
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents_approve_item.xml:112
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents.xml:41
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_online_exams_list_item.xml:49
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_online_exams.xml:40
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_online_exam_marks_item.xml:57
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_online_exam_marks.xml:30
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_news_view.xml:35
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_news_list_item.xml:47
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_news.xml:41
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_media.xml:40
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_material_list_item.xml:40
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_material.xml:39
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_marksheet_list_item.xml:30
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_marksheet_detail_list.xml:41
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_marksheet.xml:29
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_login.xml:42
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_library_list_item.xml:49
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_library.xml:40
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_hostel_list_item.xml:37
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_hostel.xml:39
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_homework_view.xml:51
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_homework_user.xml:26
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_homework_list_item.xml:49
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_homework.xml:40
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_grades_list_item.xml:40
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_grades.xml:40
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exams_list_item.xml:49
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exams.xml:40
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exam_mark_list_item.xml:48
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exam_mark.xml:44
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exam_details.xml:51
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_events_view.xml:36
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_events_list_item.xml:46
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_events.xml:39
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_classes_sch_adap_item.xml:28
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_classes_list_item.xml:42
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_classes.xml:41
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_calender_list.xml:38
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_cal_view.xml:27
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_attendance_stat_list_item.xml:46
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_attendance_stat.xml:42
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_assign_list_item.xml:49
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_assign_answers.xml:30
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_assign.xml:42
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\messages_layout_message.xml:51
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\messages_dialogs_main.xml:48
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\marksheet_grade_item.xml:13
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\list_head_title.xml:8
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\leader_expand_parent_view.xml:9
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\leader_expand_child_view.xml:36
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\layout_media_fragment.xml:24
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\header_user_colored.xml:36
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\header_loader_search_refresh_calendar.xml:25
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\header_loader_search_refresh_add_colored.xml:28
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\header_loader_search_refresh_add.xml:25
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\header_loader_search_refresh.xml:25
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\header_loader_refresh.xml:24
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\header_loader.xml:27
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\drawer_list.xml:46
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\drawer_item.xml:29
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\dashborad_poll_results_item.xml:28
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\dashboard_stat_frag.xml:45
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\dashboard_news_frag.xml:20
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\dashboard_leaderboard_frag.xml:22
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\classes_sch_tabs_frag.xml:15
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\calendar_list_item.xml:33
+-keep class com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_users_search_view.xml:49
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_transport_list_item.xml:121
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_teachers_list_item.xml:158
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_teachers_approve_item.xml:121
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students_list_item.xml:71
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students_attend_item.xml:36
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students_approve_item.xml:65
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_static_view.xml:48
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_static_list_item.xml:65
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_staff_attendance_stat_list_item.xml:175
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_staff_attendance_select.xml:47
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_sections_parent.xml:30
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_sections_child.xml:53
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_search_view.xml:25
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_search_user_result_item.xml:69
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_policy_screen.xml:118
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_pay_list_item.xml:80
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents_list_item.xml:128
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents_attend_item.xml:145
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents_approve_item.xml:122
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_online_exams_list_item.xml:62
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_online_exam_marks_item.xml:147
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_news_view.xml:116
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_news_list_item.xml:59
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_material_list_item.xml:54
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_marksheet_detail_list.xml:148
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_library_list_item.xml:66
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_hostel_list_item.xml:51
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_homework_add_new.xml:77
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exams_list_item.xml:62
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exam_details_sch_item.xml:22
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exam_details.xml:113
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_events_view.xml:177
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_events_list_item.xml:58
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_classes_list_item.xml:118
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_attendance_stat_list_item.xml:189
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_attendance_select.xml:77
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_assign_list_item.xml:62
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_assign_answers_item.xml:70
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_assign_add_new.xml:76
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\demo_login_picker_item.xml:6
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\dashborad_poll_vote_item.xml:19
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\dashboard_stat_frag.xml:725
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\dashboard_news_frag.xml:104
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\dashboard_leaderboard_frag.xml:93
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\calendar_list_item.xml:62
+-keep class com.schoolmgmtsys.root.ssg.fonts.RegularStyledTextView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_calender.xml:22
+-keep class com.schoolmgmtsys.root.ssg.utils.CalListView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\dashboard_stat_frag.xml:18
+-keep class com.schoolmgmtsys.root.ssg.utils.vsGridLayout { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\dashboard_stat_frag.xml:54
+-keep class com.solutionsbricks.solbricksframework.helpers.CircularTextView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_teachers_list_item.xml:42
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_teachers_approve_item.xml:36
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students_list_item.xml:41
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students_approve_item.xml:35
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_search_user_result_item.xml:40
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_payment_invoice_view.xml:458
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_pay_list_item.xml:129
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents_list_item.xml:41
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents_approve_item.xml:35
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_online_exam_marks_item.xml:37
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_homework_view.xml:178
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_homework_user.xml:19
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_assign_answers_item.xml:40
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\leader_expand_child_view.xml:20
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\header_user_colored.xml:25
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\drawer_list.xml:22
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\dashboard_leaderboard_frag.xml:120
+-keep class com.solutionsbricks.solbricksframework.helpers.CustomImageView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents_attend.xml:60
+-keep class com.solutionsbricks.solbricksframework.helpers.PinnedSectionListView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_users_search_view.xml:101
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_transport.xml:31
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_teachers_list_item.xml:88
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_teachers.xml:31
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_subjects.xml:30
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students_list_item.xml:107
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students_attend.xml:20
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students.xml:32
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_student_attendance.xml:32
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_static_pages.xml:30
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_static_list_item.xml:44
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_staff_attendance_stat.xml:33
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_sections.xml:32
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_payment_invoice_view.xml:42
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_pay.xml:30
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents_attend.xml:13
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents.xml:32
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_online_exams_list_item.xml:173
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_online_exams.xml:31
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_online_exam_marks.xml:21
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_news_view.xml:26
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_news.xml:32
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_media.xml:31
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_material_list_item.xml:88
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_material.xml:30
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_marksheet.xml:20
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_library_list_item.xml:149
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_library.xml:31
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_hostel.xml:30
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_homework_view.xml:42
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_homework_user.xml:40
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_homework.xml:31
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_grades.xml:31
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exams_list_item.xml:173
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exams.xml:31
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exam_details.xml:42
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_events_view.xml:27
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_events.xml:30
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_classes.xml:32
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_calender_list.xml:29
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_cal_view.xml:18
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_attendance_stat.xml:33
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_assign_list_item.xml:174
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_assign_answers_item.xml:102
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_assign_answers.xml:21
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_assign.xml:33
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\messages_layout_message.xml:42
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\messages_dialogs_main.xml:39
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\layout_media_fragment.xml:15
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\header_user_colored.xml:12
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\header_loader_search_refresh_calendar.xml:12
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\header_loader_search_refresh_add_colored.xml:15
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\header_loader_search_refresh_add.xml:12
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\header_loader_search_refresh.xml:12
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\header_loader_refresh.xml:11
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\header_loader.xml:13
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\drawer_list.xml:89
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\drawer_item.xml:14
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\dashboard_news_frag.xml:95
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\dashboard_leaderboard_frag.xml:84
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\calendar_list_item.xml:140
+-keep class com.solutionsbricks.solbricksframework.helpers.TintImageView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\messages_dialogs_main.xml:100
+-keep class com.stfalcon.chatkit.dialogs.DialogsList { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\messages_layout_message.xml:132
+-keep class com.stfalcon.chatkit.messages.MessageInput { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\messages_layout_message.xml:106
+-keep class com.stfalcon.chatkit.messages.MessagesList { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\chatkit\build\intermediates\packaged_res\release\layout\item_outcoming_image_message.xml:10
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\chatkit\build\intermediates\packaged_res\release\layout\item_incoming_image_message.xml:18
+-keep class com.stfalcon.chatkit.utils.RoundedImageView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\messages_dialog.xml:63
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\chatkit\build\intermediates\packaged_res\release\layout\item_incoming_text_message.xml:11
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\chatkit\build\intermediates\packaged_res\release\layout\item_incoming_image_message.xml:10
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\chatkit\build\intermediates\packaged_res\release\layout\item_dialog.xml:12
+-keep class com.stfalcon.chatkit.utils.ShapeImageView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\chatkit\build\intermediates\packaged_res\release\layout\view_message_input.xml:46
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_splash.xml:62
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_payment_invoice_view.xml:78
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_news_view.xml:63
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_homework_view.xml:78
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exam_details.xml:78
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_events_view.xml:64
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_calender_list.xml:104
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_cal_view.xml:56
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\messages_layout_message.xml:23
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\messages_dialogs_main.xml:20
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\dashboard_stat_frag.xml:762
+-keep class com.wang.avi.AVLoadingIndicatorView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\messages_dialog.xml:13
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\item_custom_incoming_text_message.xml:10
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\dashboard_stat_frag.xml:36
+-keep class de.hdodenhof.circleimageview.CircleImageView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_static_view.xml:69
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_news_view.xml:156
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_events_view.xml:283
+-keep class im.delight.android.webview.AdvancedWebView { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_media.xml:106
+-keep class io.karim.MaterialTabs { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_search_view.xml:61
+-keep class me.gujun.android.taggroup.TagGroup { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_teachers_approve_item.xml:203
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_students_approve_item.xml:225
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_staff_attendance_stat_list_item.xml:153
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_policy_screen.xml:90
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_parents_approve_item.xml:270
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_marksheet_detail_list.xml:329
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_exam_mark_list_item.xml:178
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\page_attendance_stat_list_item.xml:168
+-keep class org.apmem.tools.layouts.FlowLayout { <init>(...); }
+
+# Referenced at C:\Users\kaxad\AndroidStudioProjects\SchoolAndroid400\app\src\main\res\layout\media_viewer_page.xml:6
+-keep class ru.truba.touchgallery.GalleryWidget.GalleryViewPager { <init>(...); }
+

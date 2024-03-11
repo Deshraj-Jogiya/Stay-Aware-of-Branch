@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:CusTint="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="6dp"
+    android:paddingTop="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/action_btn"
+        android:layout_toStartOf="@id/action_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <com.solutionsbricks.solbricksframework.helpers.CustomImageView
+            android:id="@+id/userPhoto"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/icon_pages_user" />
+
+
+        <com.schoolmgmtsys.root.ssg.fonts.MediumStyledTextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:text="NA"
+            android:textColor="@color/x_boxes_main_text"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+    <com.solutionsbricks.solbricksframework.helpers.TintImageView
+        CusTint:tintVal="@color/x_boxes_main_text"
+        android:id="@id/action_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: me.gujun.android.taggroup:library:1.4@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.4.aar/b6337c0cdfd58fbec95d2b1c0c203e13/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.4.aar/b6337c0cdfd58fbec95d2b1c0c203e13/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.4.aar/b6337c0cdfd58fbec95d2b1c0c203e13/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

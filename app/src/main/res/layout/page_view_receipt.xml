@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CusTint="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/background_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/x_gen_back"
+        android:scaleType="centerCrop"
+        />
+
+<RelativeLayout
+    android:id="@+id/rl_main"
+    android:layout_width="match_parent"
+    android:layout_height="58dp" >
+
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="30dp"
+        android:padding="2dp"
+        CusTint:srcCompat="@drawable/ic_back"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/image_lebel"
+        android:text="View Receipt"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</RelativeLayout>
+
+<!--
+    <FrameLayout
+        android:id="@+id/full_layout"
+        android:layout_width="match_parent"
+      +  android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/footer"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:id="@+id/empty_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/img_view_receipt"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="match_parent" />
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+-->
+
+    <ImageView
+        android:id="@+id/img_view_receipt"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_below="@id/rl_main"
+        android:layout_height="match_parent" />
+
+
+</RelativeLayout>
