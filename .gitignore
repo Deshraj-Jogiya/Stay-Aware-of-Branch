@@ -21,3 +21,8 @@ gradle-app.setting
 # OS files
 .DS_Store
 Thumbs.db
+
+# release builds and signing keys
+app/release/
+*.jks
+*.keystore
