@@ -26,3 +26,7 @@ Thumbs.db
 app/release/
 *.jks
 *.keystore
+# Firebase config and signing keys stay out of the repository
+app/google-services.json
+*.jks
+*.keystore
